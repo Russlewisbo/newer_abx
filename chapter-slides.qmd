@@ -1,30 +1,50 @@
 ---
-title: "Antibiotics in Advanced Development and Other Agents"
-subtitle: "Chapter 35"
-author:
-  - name: Kyle C. Molina
-  - name: Matthew A. Miller
-  - name: Gerard R. Barber
+title: "Newer Antibiotics"
+author: "Russell E. Lewis"
+date: today
 format:
   revealjs:
-    theme: default
-    slide-number: true
-    show-slide-number: all
-    progress: true
-    hash: true
-    navigation-mode: linear
+    self-contained: true
+    spotlight: false
+    touch: true
     controls: true
-    center: true
-    transition: slide
+    pointer: true
+    center-title-slide: false
+    transition-speed: fast
+    scrollable: true
+    slide-number: true
     incremental: false
-    footer: "Chapter 35: Novel Antibiotics in Development"
-    bibliography: references.bib
-    csl: vancouver.csl
+    multiplex: false
+    chalkboard: false
+    theme: [custom.scss]
+lightbox: true
+bibliography: newer-abx-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-# Part 1: The AMR Crisis and Priority Pathogens {background-color="#2c3e50"}
+
+## Newer Antibiotics  <br> & Key Initiatives for Antibiotic Development {background-video="/images-new-abx/green_bacteria.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10"}
+<br>
+
+<br>
+
+<br> <br>
+
+<center>
+
+**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br>
+
+<center>
+
+![](images-new-abx/DMM_newlogo.png){fig-align="center" width="350"}
+
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.idpadova.com](https://padovaid.com/)
+
+
+# Part 1: The AMR Crisis and Priority Pathogens {background-color="#b20e10"}
 
 ## Learning Objectives {.smaller}
+<br>
 
 After completing this lecture, you will be able to:
 
@@ -40,6 +60,7 @@ Welcome to this lecture on antibiotics in advanced development. This is a rapidl
 :::
 
 ## The Antimicrobial Resistance Crisis {.smaller}
+<br>
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -67,6 +88,7 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 :::
 
 ## Legislative Efforts: The GAIN Act (2012){.smaller}
+<br>
 
 **Generating Antibiotic Incentives Now Act** provided "push incentives":
 
@@ -78,6 +100,7 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 
 ::: {.callout-note}
 ## Results: 2010-2020
+<br>
 **17 new systemic antibiotics** approved, including agents targeting CRE and MRSA
 :::
 
@@ -90,9 +113,11 @@ The GAIN Act was a significant step forward, resulting in 17 new systemic antibi
 :::
 
 ## The Plazomicin Case Study: A Cautionary Tale {.smaller}
+<br>
 
 ::: {.callout-warning}
 ## The Problem with Push Incentives Alone
+<br>
 :::
 
 **Timeline:**
@@ -115,6 +140,7 @@ This case perfectly illustrates the paradox of antibiotic development - we need 
 :::
 
 ## WHO Priority Pathogens List (2024 Update) {.smaller}
+<br>
 
 ::: {.columns}
 ::: {.column width="60%"}
@@ -145,6 +171,7 @@ The WHO updated this list in 2024, with critical priority pathogens being those 
 :::
 
 ## Critical Priority Pathogens
+<br>
 
 ::: {.panel-tabset}
 
@@ -172,6 +199,7 @@ These two pathogen groups represent the most urgent need for new antibiotics. Th
 :::
 
 ## High Priority Pathogens
+<br>
 
 | Pathogen | Key Resistance Pattern |
 |:---------|:-----------------------|
@@ -191,6 +219,7 @@ These high-priority pathogens include both gram-positive organisms like MRSA and
 :::
 
 ## β-Lactamase Classification: The Ambler System{.smaller}
+<br>
 
 | Class | Type | Examples | Inhibited By |
 |:------|:-----|:---------|:-------------|
@@ -201,6 +230,7 @@ These high-priority pathogens include both gram-positive organisms like MRSA and
 
 ::: {.callout-important}
 ## Critical Point
+<br>
 **Class B MBLs** remain the greatest challenge - no approved inhibitor exists
 :::
 
@@ -209,6 +239,7 @@ Understanding β-lactamase classification is essential for selecting appropriate
 :::
 
 ## Novel β-Lactamase Inhibitor Classes
+<br>
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -235,6 +266,7 @@ Understanding β-lactamase classification is essential for selecting appropriate
 ::: {.fragment}
 ::: {.callout-tip}
 ## Key Innovation
+<br>
 Taniborbactam is the first inhibitor with activity against **VIM and most NDM** metallo-β-lactamases
 :::
 :::
@@ -244,6 +276,7 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 :::
 
 ## Chapter Roadmap: Agents We'll Cover {.smaller}
+<br>
 
 <table style="width:100%; border-collapse: separate; border-spacing: 15px;">
 <tr>
@@ -280,9 +313,10 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 Here's our roadmap for the rest of the lecture. We'll cover these agents in four main categories. Let's begin with the β-lactam/β-lactamase inhibitor combinations.
 :::
 
-# Part 2: β-Lactam/β-Lactamase Inhibitor Combinations {background-color="#2c3e50"}
+# Part 2: β-Lactam/β-Lactamase Inhibitor Combinations {background-color="#b20e10"}
 
 ## Sulbactam-Durlobactam (Xacduro™) {.smaller}
+<br>
 
 **FDA Approved: May 2023** for HABP/VABP due to *A. baumannii-calcoaceticus* complex
 
@@ -309,6 +343,7 @@ Here's our roadmap for the rest of the lecture. We'll cover these agents in four
 ::: {.fragment}
 ::: {.callout-tip}
 ## Why This Matters
+<br>
 OXA-type carbapenemases (OXA-23, OXA-24/40) are the **predominant resistance mechanism** in *A. baumannii* worldwide
 :::
 :::
@@ -318,6 +353,7 @@ Sulbactam-durlobactam is specifically designed for Acinetobacter infections. Wha
 :::
 
 ## SUL-DUR: Mechanism of Action
+<br>
 
 ```{mermaid}
 flowchart LR
@@ -349,6 +385,7 @@ This diagram shows the dual mechanism of sulbactam-durlobactam. Sulbactam provid
 :::
 
 ## SUL-DUR: In Vitro Activity
+<br>
 
 **Global surveillance: 5,032 *A. baumannii* clinical isolates**
 
@@ -361,6 +398,7 @@ This diagram shows the dual mechanism of sulbactam-durlobactam. Sulbactam provid
 
 ::: {.callout-note}
 ## Susceptibility Breakpoint
+<br>
 FDA/CLSI susceptibility: **≤4/4 mg/L** for SUL-DUR
 :::
 
@@ -373,6 +411,7 @@ The in vitro data are impressive. Adding durlobactam to sulbactam reduces the MI
 :::
 
 ## SUL-DUR: Pharmacokinetics and Dosing
+<br>
 
 **Phase 1 PK Data (healthy adults):**
 
@@ -383,6 +422,7 @@ The in vitro data are impressive. Adding durlobactam to sulbactam reduces the MI
 
 ::: {.callout-important}
 ## Recommended Dosing
+<br>
 **Sulbactam-Durlobactam 2 g (1 g + 1 g)**
 
 - 3-hour IV infusion
@@ -395,6 +435,7 @@ The extended 3-hour infusion is important for optimizing time above MIC, which i
 :::
 
 ## SUL-DUR: ATTACK Trial Design {.smaller}
+<br>
 
 **Phase 3, Two-Part Registrational Trial**
 
@@ -424,6 +465,7 @@ The ATTACK trial was designed to compare SUL-DUR against the current standard of
 :::
 
 ## SUL-DUR: ATTACK Trial Results
+<br>
 
 **Part A: m-MITT Population (n = 64 per arm)**
 
@@ -438,6 +480,7 @@ The ATTACK trial was designed to compare SUL-DUR against the current standard of
 
 ::: {.callout-important}
 ## Key Finding
+<br>
 **Noninferiority achieved** with numerically better mortality, clinical cure, AND reduced nephrotoxicity
 :::
 
@@ -446,6 +489,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 :::
 
 ## SUL-DUR: Clinical Summary
+<br>
 
 ::: {.columns}
 ::: {.column width="60%"}
@@ -474,6 +518,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 
 ::: {.callout-tip}
 ## Clinical Pearl
+<br>
 SUL-DUR represents a **paradigm shift** in CRAB treatment - from toxic colistin-based regimens to a more effective, safer β-lactam approach
 :::
 
@@ -482,6 +527,7 @@ SUL-DUR is a welcome addition to our armamentarium against one of the most diffi
 :::
 
 ## Aztreonam-Avibactam: The MBL Solution
+<br>
 
 **Under Development** for MDR gram-negative infections including **MBL-producers**
 
@@ -520,6 +566,7 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 :::
 
 ## ATM-AVI: In Vitro Activity
+<br>
 
 **US Enterobacterales Surveillance (2019-2021): 27,834 isolates**
 
@@ -531,6 +578,7 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 
 ::: {.callout-warning}
 ## Important Limitation
+<br>
 ATM-AVI has **limited activity against *P. aeruginosa*** including MBL-producing strains
 :::
 
@@ -543,11 +591,13 @@ The in vitro data show excellent coverage of Enterobacterales, including 100% ac
 :::
 
 ## ATM-AVI: Dosing Strategy
+<br>
 
 **Based on Phase 1 PK-PD Modeling:**
 
 ::: {.callout-tip}
 ## Recommended Regimen
+<br>
 **Loading dose:** ATM-AVI 500-167 mg
 
 **Maintenance:** ATM-AVI 1500-500 mg
@@ -568,6 +618,7 @@ The loading dose strategy is important here because both aztreonam and avibactam
 :::
 
 ## ATM-AVI: Clinical Development Status {.smaller}
+<br>
 
 ::: {.panel-tabset}
 
@@ -595,6 +646,7 @@ The loading dose strategy is important here because both aztreonam and avibactam
 ::: {.fragment}
 ::: {.callout-note}
 ## Current Status
+<br>
 FDA filing anticipated - approval would provide first treatment option for MBL-producing Enterobacterales
 :::
 :::
@@ -604,6 +656,7 @@ The ASSEMBLE trial's early termination due to enrollment difficulty actually hig
 :::
 
 ## Cefepime-Enmetazobactam (Exblifep®) {.smaller}
+<br>
 
 **FDA Approved: February 2024** for cUTI including AP
 
@@ -641,6 +694,7 @@ Cefepime-enmetazobactam fills a niche for ESBL-producing organisms - it's not de
 :::
 
 ## FEP-ENM: ALLIUM Trial Results
+<br>
 
 **Phase 3, Randomized, Double-Blind Noninferiority Trial (cUTI/AP)**
 
@@ -677,6 +731,7 @@ The ALLIUM trial results are notable because FEP-ENM wasn't just noninferior - i
 :::
 
 ## Cefepime-Taniborbactam {.smaller}
+<br>
 
 **In Development** for CRE and MBL-producing infections
 
@@ -709,6 +764,7 @@ Phase 3 in cUTI/AP showed **superiority to meropenem**
 
 ::: {.callout-tip}
 ## Why This Matters
+<br>
 If approved, FEP-TAN would be the **first single agent** effective against both serine carbapenemases AND most MBLs
 :::
 
@@ -717,6 +773,7 @@ Cefepime-taniborbactam could be a game-changer because taniborbactam has activit
 :::
 
 ## Cefepime-Zidebactam
+<br>
 
 **In Development** for XDR gram-negative infections
 
@@ -744,6 +801,7 @@ Cefepime-taniborbactam could be a game-changer because taniborbactam has activit
 
 ::: {.callout-note}
 ## Compassionate Use
+<br>
 Successful outcomes reported for NDM-producing *P. aeruginosa* infection
 :::
 
@@ -752,6 +810,7 @@ Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lacta
 :::
 
 ## BL/BLI Combinations: Comparative Summary {.smaller}
+<br>
 
 | Agent | Class A | Class B (MBL) | Class C | Class D | Target Pathogens |
 |:------|:--------|:--------------|:--------|:--------|:-----------------|
@@ -765,6 +824,7 @@ Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lacta
 
 ::: {.callout-tip}
 ## Selection Guide
+<br>
 - **CRAB** → Sulbactam-durlobactam
 - **MBL-Enterobacterales** → ATM-AVI or FEP-TAN (when available)
 - **ESBL** → Cefepime-enmetazobactam
@@ -775,9 +835,10 @@ Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lacta
 This summary table helps guide agent selection based on the resistance mechanism you're dealing with. Note how each agent has a slightly different niche - there's no single "best" agent; it depends on the pathogen and resistance mechanism.
 :::
 
-# Part 3: Oral Carbapenems and Other Novel Agents {background-color="#2c3e50"}
+# Part 3: Oral Carbapenems and Other Novel Agents {background-color="#b20e10"}
 
 ## Oral Carbapenems: Addressing the IV-to-PO Gap
+<br>
 
 **The Clinical Need:**
 
@@ -797,6 +858,7 @@ Oral carbapenems could transform how we manage ESBL and AmpC infections by enabl
 :::
 
 ## Tebipenem
+<br>
 
 **Oral carbapenem prodrug (pivoxil hydrobromide)**
 
@@ -822,6 +884,7 @@ Oral carbapenems could transform how we manage ESBL and AmpC infections by enabl
 
 ::: {.callout-warning}
 ## Current Status
+<br>
 Initial NDA insufficient for FDA approval - **PIVOT-PO** trial (vs. IV imipenem) ongoing
 :::
 
@@ -830,6 +893,7 @@ Tebipenem showed good results in the ADAPT-PO trial but the FDA wanted additiona
 :::
 
 ## Sulopenem (Orlynvah) {.smaller}
+<br>
 
 **FDA Approved** for uncomplicated UTI
 
@@ -854,6 +918,7 @@ Tebipenem showed good results in the ADAPT-PO trial but the FDA wanted additiona
 
 ::: {.callout-note}
 ## Clinical Niche
+<br>
 Sulopenem offers an **oral option** for patients with MDR gram-negative uUTI who have limited other oral alternatives
 :::
 
@@ -862,6 +927,7 @@ Sulopenem fills an important niche for uncomplicated UTI caused by MDR organisms
 :::
 
 ## Ceftobiprole (Zevtera): Fifth-Generation Cephalosporin
+<br>
 
 **FDA Approved** for multiple MRSA indications
 
@@ -899,6 +965,7 @@ Ceftobiprole is the first β-lactam approved for MRSA bacteremia in the US. Its 
 :::
 
 ## Contezolid: Safer Oxazolidinone?
+<br>
 
 **Novel oxazolidinone** in development
 
@@ -932,6 +999,7 @@ Oxazolidinones are valuable for resistant gram-positives, but myelosuppression l
 :::
 
 ## Afabicin: Selective Anti-Staphylococcal Agent
+<br>
 
 **Novel FabI inhibitor** with unique selectivity
 
@@ -966,6 +1034,7 @@ Afabicin's extremely narrow spectrum is actually a feature, not a bug, from a st
 :::
 
 ## Gepotidacin: Novel Topoisomerase Inhibitor {.smaller}
+<br>
 
 **First-in-class triazaacenaphthylene** for uUTI and gonorrhea
 
@@ -999,6 +1068,7 @@ Afabicin's extremely narrow spectrum is actually a feature, not a bug, from a st
 
 ::: {.callout-important}
 ## Addressing a Critical Need
+<br>
 Gepotidacin provides an **oral option** for gonorrhea - crucial as resistance to ceftriaxone emerges
 :::
 
@@ -1007,6 +1077,7 @@ Gepotidacin is particularly important for gonorrhea treatment. With increasing c
 :::
 
 ## Zoliflodacin: Single-Dose Gonorrhea Treatment
+<br>
 
 **First-in-class spiropyrimidinetrione** for *N. gonorrhoeae*
 
@@ -1041,6 +1112,7 @@ Active against strains resistant to:
 
 ::: {.callout-tip}
 ## Clinical Pearl
+<br>
 Single-dose oral therapy dramatically improves **treatment adherence** - critical for STI management
 :::
 
@@ -1049,6 +1121,7 @@ Single-dose therapy is crucial for STI treatment where follow-up is often diffic
 :::
 
 ## Other Agents: Brief Overview {.smaller}
+<br>
 
 ::: {.panel-tabset}
 
@@ -1089,9 +1162,10 @@ Single-dose therapy is crucial for STI treatment where follow-up is often diffic
 Let me briefly mention some other agents in development. Each fills a specific niche - NTM infections, C. diff, etc. The fosfomycin story is unfortunate, as the IV form showed promise but development was abandoned after the company's bankruptcy.
 :::
 
-# Part 4: Summary and Conclusions {background-color="#2c3e50"}
+# Part 4: Summary and Conclusions {background-color="#b20e10"}
 
 ## Novel Agents Summary Table {.smaller}
+<br>
 
 | Agent | Target | Key Indications | Status |
 |:------|:-------|:----------------|:-------|
@@ -1110,6 +1184,7 @@ This summary table provides a quick reference for agent selection based on targe
 :::
 
 ## Key Takeaways {.smaller}
+<br>
 
 ::: {.incremental}
 1. **The AMR challenge is growing** - MDR organisms continue to emerge faster than new treatments
@@ -1130,6 +1205,7 @@ These six takeaways summarize the key messages from this lecture. The field is a
 :::
 
 ## Clinical Decision Framework
+<br>
 
 ```{mermaid}
 flowchart TB
@@ -1151,6 +1227,7 @@ This framework helps guide empiric and directed therapy decisions based on the p
 :::
 
 ## Looking Forward
+<br>
 
 **Promising developments:**
 
@@ -1166,6 +1243,7 @@ This framework helps guide empiric and directed therapy decisions based on the p
 
 ::: {.callout-important}
 ## Final Thought
+<br>
 New antibiotics are necessary but not sufficient - **stewardship, infection prevention, and diagnostics** must work together to combat AMR
 :::
 
@@ -1174,6 +1252,7 @@ As we conclude, remember that new antibiotics alone won't solve the AMR crisis. 
 :::
 
 ## Questions?
+<br>
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -1197,6 +1276,7 @@ Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced D
 :::
 
 ## References {.smaller}
+<br>
 
 ::: {#refs}
 :::
@@ -1204,6 +1284,7 @@ Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced D
 ---
 
 ## Supplementary: Dosing Quick Reference {.smaller}
+<br>
 
 | Agent | Dose | Frequency | Infusion | Renal Adjustment |
 |:------|:-----|:----------|:---------|:-----------------|
@@ -1218,10 +1299,12 @@ Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced D
 
 ::: {.callout-tip}
 ## Clinical Pearl
+<br>
 Extended infusions optimize **time above MIC** for these β-lactam agents
 :::
 
 ## Supplementary: Mechanism Comparison
+<br>
 
 ```{mermaid}
 flowchart TB
