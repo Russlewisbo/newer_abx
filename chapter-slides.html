@@ -1,0 +1,2654 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="chapter-slides_files/libs/clipboard/clipboard.min.js"></script>
+<script src="chapter-slides_files/libs/quarto-html/tabby.min.js"></script>
+<script src="chapter-slides_files/libs/quarto-html/popper.min.js"></script>
+<script src="chapter-slides_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="chapter-slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="chapter-slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="chapter-slides_files/libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.35">
+
+  <meta name="author" content="Kyle C. Molina">
+  <meta name="author" content="Matthew A. Miller">
+  <meta name="author" content="Gerard R. Barber">
+  <title>Antibiotics in Advanced Development and Other Agents</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
+  <link href="chapter-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="chapter-slides_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="chapter-slides_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="chapter-slides_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Antibiotics in Advanced Development and Other Agents</h1>
+  <p class="subtitle">Chapter 35</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Kyle C. Molina 
+</div>
+</div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Matthew A. Miller 
+</div>
+</div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Gerard R. Barber 
+</div>
+</div>
+</div>
+
+</section>
+<section>
+<section id="part-1-the-amr-crisis-and-priority-pathogens" class="title-slide slide level1 center" data-background-color="#2c3e50">
+<h1>Part 1: The AMR Crisis and Priority Pathogens</h1>
+
+</section>
+<section id="learning-objectives" class="slide level2 smaller center">
+<h2>Learning Objectives</h2>
+<p>After completing this lecture, you will be able to:</p>
+<ol type="1">
+<li><strong>Describe</strong> the current antimicrobial resistance crisis and its global impact</li>
+<li><strong>Identify</strong> WHO priority pathogens requiring novel antimicrobial development</li>
+<li><strong>Explain</strong> mechanisms of action for novel β-lactam/β-lactamase inhibitor combinations</li>
+<li><strong>Compare</strong> spectrum of activity among new agents targeting MDR gram-negatives</li>
+<li><strong>Evaluate</strong> clinical trial evidence supporting recently approved antibiotics</li>
+<li><strong>Apply</strong> appropriate selection of novel agents based on resistance patterns</li>
+</ol>
+<aside class="notes">
+<p>Welcome to this lecture on antibiotics in advanced development. This is a rapidly evolving field - several agents we’ll discuss have received FDA approval within the past 2 years, and others are on the verge of approval.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-antimicrobial-resistance-crisis" class="slide level2 smaller center">
+<h2>The Antimicrobial Resistance Crisis</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Current Impact:</strong></p>
+<ul>
+<li><strong>700,000</strong> deaths annually attributed to AMR</li>
+<li>MDR organisms have limited treatment options</li>
+<li>Resistance detected after every new antibiotic introduction</li>
+</ul>
+<p><strong>Projected Impact:</strong></p>
+<ul>
+<li><strong>10 million deaths/year</strong> by 2050 if unchecked</li>
+<li>Economic burden estimated at $100 trillion</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/amr-timeline.png" alt="Timeline showing antibiotic development and resistance emergence"></p>
+<p><em>Resistance emerged to penicillin by 1942 - just 14 years after discovery</em>…or probably pre-dated our discocvery of penicillin!</p>
+</div></div>
+<aside class="notes">
+<p>The discovery of penicillin in 1928 marked the dawn of the antibiotic era. However, by 1942, penicillin resistance among Staphylococcus aureus was already reported. This pattern has repeated with every new antimicrobial agent introduced.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="legislative-efforts-the-gain-act-2012" class="slide level2 smaller center">
+<h2>Legislative Efforts: The GAIN Act (2012)</h2>
+<p><strong>Generating Antibiotic Incentives Now Act</strong> provided “push incentives”:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Incentive</th>
+<th style="text-align: left;">Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Extended exclusivity</td>
+<td style="text-align: left;">Additional 5 years market protection</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fast track designation</td>
+<td style="text-align: left;">Accelerated development pathway</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Priority review</td>
+<td style="text-align: left;">6-month vs.&nbsp;10-month FDA review</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Results: 2010-2020</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>17 new systemic antibiotics</strong> approved, including agents targeting CRE and MRSA</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><strong>But was this enough?</strong></p>
+</div>
+<aside class="notes">
+<p>The GAIN Act was a significant step forward, resulting in 17 new systemic antibiotics between 2010 and 2020. However, it didn’t fully address all drug development challenges.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-plazomicin-case-study-a-cautionary-tale" class="slide level2 smaller center">
+<h2>The Plazomicin Case Study: A Cautionary Tale</h2>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>The Problem with Push Incentives Alone</strong></p>
+</div>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<p><strong>Timeline:</strong></p>
+<ul>
+<li>FDA approval obtained for new aminoglycoside targeting resistant gram-negatives</li>
+<li>Drug reserved as “last resort” therapy (appropriate stewardship)</li>
+<li>Low sales volume due to targeted use</li>
+<li><strong>Company could not sustain itself financially</strong></li>
+</ul>
+<div class="fragment">
+<p><strong>The lesson:</strong> Push incentives support development but fail to ensure <strong>post-approval sustainability</strong></p>
+</div>
+<div class="fragment">
+<p><strong>New focus:</strong> Pull incentives (subscription models) that reward societal value rather than sales volume</p>
+</div>
+<aside class="notes">
+<p>This case perfectly illustrates the paradox of antibiotic development - we need these drugs to be available but want them used sparingly. Subscription-based payment models, like those being piloted in the UK and proposed in US legislation like PASTEUR Act, may help address this market failure.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="who-priority-pathogens-list-2024-update" class="slide level2 smaller center">
+<h2>WHO Priority Pathogens List (2024 Update)</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Categorization criteria:</strong></p>
+<ol type="1">
+<li>Resistance to existing drugs</li>
+<li>Ease of spreading resistance</li>
+<li>Impact on healthcare systems</li>
+<li>Patient health outcomes</li>
+</ol>
+<p><strong>Chapter Focus:</strong></p>
+<p>Novel agents targeting <strong>critical and high priority</strong> pathogens</p>
+</div><div class="column" style="width:40%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">pie title Priority Distribution
+    "Critical" : 2
+    "High" : 7
+    "Medium" : 4
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+<aside class="notes">
+<p>The WHO updated this list in 2024, with critical priority pathogens being those most urgently in need of new treatment options. We’ll focus primarily on agents targeting these critical and high priority organisms.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="critical-priority-pathogens" class="slide level2 center">
+<h2>Critical Priority Pathogens</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1"><em>A. baumannii</em></a></li><li><a href="#tabset-1-2">Enterobacterales</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><strong>Acinetobacter baumannii-calcoaceticus complex</strong></p>
+<ul>
+<li>Carbapenem-resistant (CRAB)</li>
+<li>Causes HAP, VAP, bloodstream infections</li>
+<li>Limited treatment options historically</li>
+<li><strong>New agent:</strong> Sulbactam-durlobactam (Xacduro™)</li>
+</ul>
+</div>
+<div id="tabset-1-2">
+<p><strong>Carbapenem-resistant Enterobacterales (CRE)</strong></p>
+<ul>
+<li><em>E. coli</em>, <em>Klebsiella</em>, <em>Enterobacter</em>, others</li>
+<li>KPC, NDM, VIM, OXA-48 producing</li>
+<li>ESBL-producing strains</li>
+<li><strong>New agents:</strong> Multiple BL/BLI combinations, oral carbapenems</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>These two pathogen groups represent the most urgent need for new antibiotics. The critical designation reflects extremely limited treatment options and high mortality rates associated with infections caused by these organisms.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="high-priority-pathogens" class="slide level2 center">
+<h2>High Priority Pathogens</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pathogen</th>
+<th style="text-align: left;">Key Resistance Pattern</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>Pseudomonas aeruginosa</em></td>
+<td style="text-align: left;">Carbapenem-resistant</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Enterococcus faecium</em></td>
+<td style="text-align: left;">Vancomycin-resistant (VRE)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>Staphylococcus aureus</em></td>
+<td style="text-align: left;">Methicillin-resistant (MRSA)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Neisseria gonorrhoeae</em></td>
+<td style="text-align: left;">FQ-resistant, 3rd gen ceph-resistant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>Salmonella</em> Typhi</td>
+<td style="text-align: left;">Fluoroquinolone-resistant</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Shigella</em> spp.</td>
+<td style="text-align: left;">Fluoroquinolone-resistant</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<p><strong>Novel agents covered:</strong> Ceftobiprole (MRSA), Gepotidacin &amp; Zoliflodacin (<em>N. gonorrhoeae</em>)</p>
+</div>
+<aside class="notes">
+<p>These high-priority pathogens include both gram-positive organisms like MRSA and VRE, and gram-negative organisms with concerning resistance patterns. We’ll discuss several agents targeting these pathogens later in the lecture.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="β-lactamase-classification-the-ambler-system" class="slide level2 smaller center">
+<h2>β-Lactamase Classification: The Ambler System</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 27%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Class</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Examples</th>
+<th style="text-align: left;">Inhibited By</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A</strong></td>
+<td style="text-align: left;">Serine</td>
+<td style="text-align: left;">KPC, CTX-M, TEM, SHV</td>
+<td style="text-align: left;">Avibactam, Vaborbactam</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>B</strong></td>
+<td style="text-align: left;">Metallo (MBL)</td>
+<td style="text-align: left;">NDM, VIM, IMP</td>
+<td style="text-align: left;">Aztreonam stability only</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>C</strong></td>
+<td style="text-align: left;">Serine (AmpC)</td>
+<td style="text-align: left;">AmpC</td>
+<td style="text-align: left;">Avibactam</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>D</strong></td>
+<td style="text-align: left;">Serine (OXA)</td>
+<td style="text-align: left;">OXA-23, OXA-48</td>
+<td style="text-align: left;">Durlobactam, Avibactam (limited)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Critical Point</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Class B MBLs</strong> remain the greatest challenge - no approved inhibitor exists</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Understanding β-lactamase classification is essential for selecting appropriate BL/BLI combinations. The Ambler classification divides these enzymes into 4 classes. Class B metallo-β-lactamases are particularly problematic because they require zinc for activity and current inhibitors don’t work against them - with one important exception we’ll discuss.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="novel-β-lactamase-inhibitor-classes" class="slide level2 center">
+<h2>Novel β-Lactamase Inhibitor Classes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Diazabicyclooctanes (DBOs):</strong></p>
+<ul>
+<li>Avibactam</li>
+<li>Relebactam</li>
+<li><strong>Durlobactam</strong> (OXA activity!)</li>
+<li>Zidebactam</li>
+</ul>
+<p><strong>Mechanism:</strong> Covalent, reversible binding to serine β-lactamases</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Boronates:</strong></p>
+<ul>
+<li>Vaborbactam</li>
+<li><strong>Taniborbactam</strong> (MBL activity!)</li>
+</ul>
+<p><strong>Mechanism:</strong> Reversible binding, broader spectrum including some MBLs</p>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Innovation</strong></p>
+</div>
+<div class="callout-content">
+<p>Taniborbactam is the first inhibitor with activity against <strong>VIM and most NDM</strong> metallo-β-lactamases</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>The development of new β-lactamase inhibitor classes has been crucial for addressing carbapenemase-producing organisms. The DBOs and boronates represent significant advances over older inhibitors like clavulanate and tazobactam.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="chapter-roadmap-agents-well-cover" class="slide level2 smaller center">
+<h2>Chapter Roadmap: Agents We’ll Cover</h2>
+<table style="width:100%; border-collapse: separate; border-spacing: 15px;">
+<tbody><tr>
+<td style="background:#dbeafe; padding:15px; border:2px solid #3b82f6; border-radius:8px; vertical-align:top; width:25%;">
+<b>🔵 β-Lactam/BLI</b><br> - Sulbactam-Durlobactam<br> - Aztreonam-Avibactam<br> - Cefepime-Enmetazobactam<br> - Cefepime-Taniborbactam<br> - Cefepime-Zidebactam
+</td>
+<td style="background:#fef3c7; padding:15px; border:2px solid #f59e0b; border-radius:8px; vertical-align:top; width:25%;">
+<b>🟡 Oral Carbapenems</b><br> - Tebipenem<br> - Sulopenem
+</td>
+<td style="background:#f3e8ff; padding:15px; border:2px solid #a855f7; border-radius:8px; vertical-align:top; width:25%;">
+<b>🟣 Gram-Positive</b><br> - Ceftobiprole<br> - Contezolid<br> - Afabicin
+</td>
+<td style="background:#d1fae5; padding:15px; border:2px solid #10b981; border-radius:8px; vertical-align:top; width:25%;">
+<b>🟢 Topoisomerase</b><br> - Gepotidacin<br> - Zoliflodacin
+</td>
+</tr>
+</tbody></table>
+<aside class="notes">
+<p>Here’s our roadmap for the rest of the lecture. We’ll cover these agents in four main categories. Let’s begin with the β-lactam/β-lactamase inhibitor combinations.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="part-2-β-lactamβ-lactamase-inhibitor-combinations" class="title-slide slide level1 center" data-background-color="#2c3e50">
+<h1>Part 2: β-Lactam/β-Lactamase Inhibitor Combinations</h1>
+
+</section>
+<section id="sulbactam-durlobactam-xacduro" class="slide level2 smaller center">
+<h2>Sulbactam-Durlobactam (Xacduro™)</h2>
+<p><strong>FDA Approved: May 2023</strong> for HABP/VABP due to <em>A. baumannii-calcoaceticus</em> complex</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Sulbactam:</strong></p>
+<ul>
+<li>Historically a β-lactamase inhibitor</li>
+<li><strong>Intrinsic activity</strong> against <em>A. baumannii</em></li>
+<li>Binds PBP 1a/1b and PBP3</li>
+<li>Limited by contemporary resistance</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Durlobactam:</strong></p>
+<ul>
+<li>Novel DBO inhibitor</li>
+<li>Inhibits Class A, C, and D enzymes</li>
+<li><strong>Unique OXA family activity</strong></li>
+<li>Direct antibacterial activity via PBP2</li>
+</ul>
+</div></div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Why This Matters</strong></p>
+</div>
+<div class="callout-content">
+<p>OXA-type carbapenemases (OXA-23, OXA-24/40) are the <strong>predominant resistance mechanism</strong> in <em>A. baumannii</em> worldwide</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Sulbactam-durlobactam is specifically designed for Acinetobacter infections. What makes durlobactam unique among DBO inhibitors is its potent activity against OXA-type carbapenemases, which are the main resistance mechanism in A. baumannii. This is something that avibactam and relebactam cannot do effectively.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sul-dur-mechanism-of-action" class="slide level2 center">
+<h2>SUL-DUR: Mechanism of Action</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    subgraph Target ["A. baumannii Cell Wall"]
+        PBP1[PBP1a/1b]
+        PBP2[PBP2]
+        PBP3[PBP3]
+    end
+    subgraph Enzymes ["β-Lactamases"]
+        OXA[OXA-23/24/40]
+        ClassC[AmpC]
+        ClassA[TEM/SHV]
+    end
+    SUL[Sulbactam] --&gt; PBP1
+    SUL --&gt; PBP3
+    DUR[Durlobactam] --&gt; OXA
+    DUR --&gt; ClassC
+    DUR --&gt; ClassA
+    DUR -.-&gt; PBP2
+
+    style OXA fill:#ff6b6b
+    style DUR fill:#4ecdc4
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>Result:</strong> Durlobactam restores sulbactam activity by inhibiting resistance mechanisms</p>
+<aside class="notes">
+<p>This diagram shows the dual mechanism of sulbactam-durlobactam. Sulbactam provides the antibacterial activity by binding to PBPs, while durlobactam prevents the destruction of sulbactam by inhibiting the β-lactamases that would otherwise hydrolyze it. Durlobactam also has some direct PBP2 binding activity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sul-dur-in-vitro-activity" class="slide level2 center">
+<h2>SUL-DUR: In Vitro Activity</h2>
+<p><strong>Global surveillance: 5,032 <em>A. baumannii</em> clinical isolates</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Agent</th>
+<th style="text-align: left;">MIC<sub>50</sub></th>
+<th style="text-align: left;">MIC<sub>90</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Sulbactam-Durlobactam</strong></td>
+<td style="text-align: left;"><strong>1 mg/L</strong></td>
+<td style="text-align: left;"><strong>2 mg/L</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sulbactam alone</td>
+<td style="text-align: left;">8 mg/L</td>
+<td style="text-align: left;">64 mg/L</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Imipenem</td>
+<td style="text-align: left;">&gt;8 mg/L</td>
+<td style="text-align: left;">&gt;8 mg/L</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Colistin</td>
+<td style="text-align: left;">1 mg/L</td>
+<td style="text-align: left;">2 mg/L</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Susceptibility Breakpoint</strong></p>
+</div>
+<div class="callout-content">
+<p>FDA/CLSI susceptibility: <strong>≤4/4 mg/L</strong> for SUL-DUR</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><strong>32-fold reduction</strong> in MIC<sub>90</sub> with durlobactam addition</p>
+</div>
+<aside class="notes">
+<p>The in vitro data are impressive. Adding durlobactam to sulbactam reduces the MIC90 from 64 mg/L to just 2 mg/L - a 32-fold improvement. This brings the vast majority of A. baumannii strains into the susceptible range.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sul-dur-pharmacokinetics-and-dosing" class="slide level2 center">
+<h2>SUL-DUR: Pharmacokinetics and Dosing</h2>
+<p><strong>Phase 1 PK Data (healthy adults):</strong></p>
+<ul>
+<li>Linear, dose-proportional pharmacokinetics</li>
+<li>Primary clearance: <strong>Renal excretion</strong></li>
+<li>Half-life: <strong>1.4–3.6 hours</strong></li>
+<li>Minimal accumulation with multiple dosing</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Recommended Dosing</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Sulbactam-Durlobactam 2 g (1 g + 1 g)</strong></p>
+<ul>
+<li>3-hour IV infusion</li>
+<li>Every 6 hours</li>
+<li>Renal dose adjustment required for CrCl &lt;90 mL/min</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>The extended 3-hour infusion is important for optimizing time above MIC, which is the key PK-PD parameter for β-lactams. The short half-life necessitates frequent dosing. Renal adjustment is needed since both drugs are primarily renally cleared.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sul-dur-attack-trial-design" class="slide level2 smaller center">
+<h2>SUL-DUR: ATTACK Trial Design</h2>
+<p><strong>Phase 3, Two-Part Registrational Trial</strong></p>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Part A</a></li><li><a href="#tabset-2-2">Part B</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<p><strong>Randomized, Controlled Comparison</strong></p>
+<ul>
+<li><strong>Population:</strong> HABP, VABP, BSI due to CRAB</li>
+<li><strong>Intervention:</strong> SUL-DUR 2g (1g-1g) q6h over 3h</li>
+<li><strong>Comparator:</strong> Colistin 2.5 mg/kg q12h over 30 min</li>
+<li><strong>Background:</strong> Imipenem-cilastatin 1g-1g q6h (both arms)</li>
+<li><strong>Primary endpoint:</strong> 28-day all-cause mortality</li>
+</ul>
+</div>
+<div id="tabset-2-2">
+<p><strong>Supportive Open-Label Study</strong></p>
+<ul>
+<li>Patients with colistin-resistant <em>A. baumannii</em></li>
+<li>Or polymyxin-intolerant patients</li>
+<li>Multiple infection types: HABP, VABP, BSI, cUTI, AP, wound infections</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>The ATTACK trial was designed to compare SUL-DUR against the current standard of care for CRAB infections - colistin. Both arms received background imipenem-cilastatin. Part B provided a pathway for patients who couldn’t receive colistin.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sul-dur-attack-trial-results" class="slide level2 center">
+<h2>SUL-DUR: ATTACK Trial Results</h2>
+<p><strong>Part A: m-MITT Population (n = 64 per arm)</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Outcome</th>
+<th style="text-align: left;">SUL-DUR</th>
+<th style="text-align: left;">Colistin</th>
+<th style="text-align: left;">Difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>28-day mortality</strong></td>
+<td style="text-align: left;"><strong>19.0%</strong></td>
+<td style="text-align: left;">32.3%</td>
+<td style="text-align: left;">−13.2%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Clinical cure</td>
+<td style="text-align: left;"><strong>61.9%</strong></td>
+<td style="text-align: left;">40.3%</td>
+<td style="text-align: left;">+21.6%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Drug-related AEs</td>
+<td style="text-align: left;"><strong>12.3%</strong></td>
+<td style="text-align: left;">30.2%</td>
+<td style="text-align: left;">−17.9%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nephrotoxicity (RIFLE)</td>
+<td style="text-align: left;"><strong>13.2%</strong></td>
+<td style="text-align: left;">37.6%</td>
+<td style="text-align: left;">−24.4%*</td>
+</tr>
+</tbody>
+</table>
+<p><em>*P = 0.0002</em></p>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Finding</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Noninferiority achieved</strong> with numerically better mortality, clinical cure, AND reduced nephrotoxicity</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>These results are remarkable. Not only did SUL-DUR meet its noninferiority endpoint, but there was a clinically meaningful numerical reduction in mortality - 13 percentage points. The safety advantage was even more striking, with nearly three-fold lower nephrotoxicity compared to colistin. This is a real advancement for treating CRAB infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sul-dur-clinical-summary" class="slide level2 center">
+<h2>SUL-DUR: Clinical Summary</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Key Points:</strong></p>
+<p>✓ First agent specifically developed for CRAB</p>
+<p>✓ Novel OXA-family inhibition</p>
+<p>✓ Mortality benefit suggested vs.&nbsp;colistin</p>
+<p>✓ Significantly reduced nephrotoxicity</p>
+<p>✓ FDA approved May 2023</p>
+</div><div class="column" style="width:40%;">
+<p><strong>Limitations:</strong></p>
+<ul>
+<li>Limited to <em>A. baumannii</em></li>
+<li>No activity against MBL-producers</li>
+<li>Requires IV administration</li>
+<li>Background imipenem in trials</li>
+</ul>
+</div></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Clinical Pearl</strong></p>
+</div>
+<div class="callout-content">
+<p>SUL-DUR represents a <strong>paradigm shift</strong> in CRAB treatment - from toxic colistin-based regimens to a more effective, safer β-lactam approach</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>SUL-DUR is a welcome addition to our armamentarium against one of the most difficult-to-treat pathogens. While it’s limited to Acinetobacter, that’s exactly what it was designed for, and it does that job exceptionally well.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="aztreonam-avibactam-the-mbl-solution" class="slide level2 center">
+<h2>Aztreonam-Avibactam: The MBL Solution</h2>
+<p><strong>Under Development</strong> for MDR gram-negative infections including <strong>MBL-producers</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>The Problem:</strong></p>
+<ul>
+<li>MBLs (NDM, VIM, IMP) hydrolyze all β-lactams</li>
+<li>No approved MBL inhibitor exists</li>
+<li>MBL-producers often co-produce serine β-lactamases</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>The Solution:</strong></p>
+<ul>
+<li>Aztreonam is <strong>intrinsically stable</strong> to MBLs</li>
+<li>Avibactam inhibits co-produced serine enzymes</li>
+<li><strong>Combination restores aztreonam activity</strong></li>
+</ul>
+</div></div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    ATM[Aztreonam] --&gt; MBL{MBL}
+    ATM --&gt; SBL{Serine BL}
+    MBL --&gt;|Stable| Active[Active Drug]
+    SBL --&gt;|Hydrolyzed| Inactive[Inactive]
+    AVI[Avibactam] --&gt;|Inhibits| SBL
+    SBL --&gt;|Protected| Active
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam is the only β-lactam naturally stable to metallo-β-lactamases due to its monobactam structure. However, MBL-producing strains usually also make serine β-lactamases that destroy aztreonam. Avibactam handles those serine enzymes, allowing aztreonam to work.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="atm-avi-in-vitro-activity" class="slide level2 center">
+<h2>ATM-AVI: In Vitro Activity</h2>
+<p><strong>US Enterobacterales Surveillance (2019-2021): 27,834 isolates</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Population</th>
+<th style="text-align: left;">ATM-AVI Susceptibility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">All Enterobacterales</td>
+<td style="text-align: left;"><strong>&gt;99.9%</strong> at ≤8 mg/L</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CRE (n = 261)</td>
+<td style="text-align: left;"><strong>99.6%</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MBL-producers (n = 33)</td>
+<td style="text-align: left;"><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important Limitation</strong></p>
+</div>
+<div class="callout-content">
+<p>ATM-AVI has <strong>limited activity against <em>P. aeruginosa</em></strong> including MBL-producing strains</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><strong>MIC<sub>50/90</sub>:</strong> 0.25/0.5 mg/L for Enterobacterales</p>
+</div>
+<aside class="notes">
+<p>The in vitro data show excellent coverage of Enterobacterales, including 100% activity against MBL-producers in this surveillance study. However, it’s critical to note that this combination does not work well against Pseudomonas, likely because avibactam doesn’t adequately address the resistance mechanisms in that organism.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="atm-avi-dosing-strategy" class="slide level2 center">
+<h2>ATM-AVI: Dosing Strategy</h2>
+<p><strong>Based on Phase 1 PK-PD Modeling:</strong></p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Recommended Regimen</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Loading dose:</strong> ATM-AVI 500-167 mg</p>
+<p><strong>Maintenance:</strong> ATM-AVI 1500-500 mg</p>
+<ul>
+<li>3-hour IV infusion</li>
+<li>Every 6 hours</li>
+<li>Target: ƒT &gt; MIC of 60% up to MIC 8 mg/L</li>
+</ul>
+</div>
+</div>
+</div>
+<p><strong>Rationale for loading dose:</strong></p>
+<ul>
+<li>Achieves steady-state exposure rapidly</li>
+<li>Critical for severe infections</li>
+<li>Compensates for renal clearance of both agents</li>
+</ul>
+<aside class="notes">
+<p>The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="atm-avi-clinical-development-status" class="slide level2 smaller center">
+<h2>ATM-AVI: Clinical Development Status</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">REVISIT (Phase 3)</a></li><li><a href="#tabset-3-2">ASSEMBLE (Phase 3)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<p><strong>Open-label comparison in cIAI, HABP, VABP:</strong></p>
+<ul>
+<li>ATM-AVI ± metronidazole vs.&nbsp;meropenem ± colistin</li>
+<li>Results support efficacy</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Indication</th>
+<th style="text-align: left;">ATM-AVI Mortality</th>
+<th style="text-align: left;">Comparator Mortality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">cIAI</td>
+<td style="text-align: left;">1.9% (4/208)</td>
+<td style="text-align: left;">2.9% (3/104)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HABP/VABP</td>
+<td style="text-align: left;">10.8% (8/74)</td>
+<td style="text-align: left;">19.4% (7/36)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tabset-3-2">
+<p><strong>MBL-producing infections specifically:</strong></p>
+<ul>
+<li>Terminated early (15/60 planned patients enrolled)</li>
+<li>Enrollment extremely difficult</li>
+<li>TOC results: 5/12 (41.7%) ATM-AVI cured vs.&nbsp;0/3 BAT</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Current Status</strong></p>
+</div>
+<div class="callout-content">
+<p>FDA filing anticipated - approval would provide first treatment option for MBL-producing Enterobacterales</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>The ASSEMBLE trial’s early termination due to enrollment difficulty actually highlights the rarity of MBL infections in some settings - which is both good news epidemiologically but makes studying treatments difficult. The REVISIT data support efficacy comparable to meropenem-based regimens.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="cefepime-enmetazobactam-exblifep" class="slide level2 smaller center">
+<h2>Cefepime-Enmetazobactam (Exblifep®)</h2>
+<p><strong>FDA Approved: February 2024</strong> for cUTI including AP</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Enmetazobactam:</strong></p>
+<ul>
+<li>N-methyl derivative of tazobactam</li>
+<li>Net-neutral zwitterion</li>
+<li>Enhanced cell wall penetration</li>
+<li>Class A enzyme inhibition</li>
+</ul>
+<p><strong>Activity:</strong></p>
+<ul>
+<li>CTX-M, TEM, SHV variants</li>
+<li><strong>NOT serine carbapenemases (KPC)</strong></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Target Population:</strong></p>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">pie title Target Organisms
+    "ESBL-producers" : 70
+    "AmpC" : 20
+    "Other" : 10
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><em>Primarily ESBL-producing Enterobacterales</em></p>
+</div></div>
+<aside class="notes">
+<p>Cefepime-enmetazobactam fills a niche for ESBL-producing organisms - it’s not designed for carbapenemase-producers. Think of it as enhanced anti-ESBL coverage rather than anti-CRE therapy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="fep-enm-allium-trial-results" class="slide level2 center">
+<h2>FEP-ENM: ALLIUM Trial Results</h2>
+<p><strong>Phase 3, Randomized, Double-Blind Noninferiority Trial (cUTI/AP)</strong></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Primary Analysis (n = 678):</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Outcome</th>
+<th style="text-align: left;">FEP-ENM</th>
+<th style="text-align: left;">PIP-TAZ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Composite cure</td>
+<td style="text-align: left;"><strong>79.1%</strong></td>
+<td style="text-align: left;">58.9%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Δ = 21.2%</strong> (95% CI: 14.3-27.9%)</p>
+<ul>
+<li>Noninferiority achieved ✓</li>
+<li><strong>Hierarchical superiority achieved</strong> ✓</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><strong>ESBL Subset:</strong></p>
+<ul>
+<li>FEP-ENM: <strong>73.7%</strong></li>
+<li>PIP-TAZ: 51.5%</li>
+</ul>
+<p><em>Where FEP-ENM shines</em></p>
+</div></div>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>Not just noninferior - <strong>statistically superior</strong> to piperacillin-tazobactam</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>The ALLIUM trial results are notable because FEP-ENM wasn’t just noninferior - it was significantly superior to pip-tazo. This is particularly evident in ESBL-producing infections where pip-tazo is known to be unreliable.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="cefepime-taniborbactam" class="slide level2 smaller center">
+<h2>Cefepime-Taniborbactam</h2>
+<p><strong>In Development</strong> for CRE and MBL-producing infections</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Taniborbactam:</strong></p>
+<ul>
+<li>Bicyclic boronate inhibitor</li>
+<li>Class A, C, D serine enzymes</li>
+<li><strong>Class B MBL activity:</strong>
+<ul>
+<li>VIM: Yes ✓</li>
+<li>Most NDM: Yes ✓</li>
+<li>IMP: Limited</li>
+</ul></li>
+</ul>
+<p><strong>First inhibitor with broad MBL coverage</strong></p>
+</div><div class="column" style="width:50%;">
+<p><strong>Dosing:</strong></p>
+<ul>
+<li>2.5 g (2 g + 500 mg)</li>
+<li>Every 8 hours</li>
+<li>2-hour infusion</li>
+</ul>
+<p><strong>CERTAIN-1 Trial:</strong></p>
+<p>Phase 3 in cUTI/AP showed <strong>superiority to meropenem</strong></p>
+</div></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Why This Matters</strong></p>
+</div>
+<div class="callout-content">
+<p>If approved, FEP-TAN would be the <strong>first single agent</strong> effective against both serine carbapenemases AND most MBLs</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Cefepime-taniborbactam could be a game-changer because taniborbactam has activity against VIM and most NDM metallo-β-lactamases - something no other approved inhibitor can claim. This means you wouldn’t need to use the aztreonam-avibactam combination approach for most MBL-producers.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="cefepime-zidebactam" class="slide level2 center">
+<h2>Cefepime-Zidebactam</h2>
+<p><strong>In Development</strong> for XDR gram-negative infections</p>
+<p><strong>Zidebactam - Unique Mechanism:</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>β-Lactam Enhancer:</strong></p>
+<ul>
+<li>Strong PBP2 binding</li>
+<li>Complements cefepime’s PBP3, PBP1a/1b binding</li>
+<li>Synergistic cell wall disruption</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Spectrum:</strong></p>
+<ul>
+<li>Enterobacterales (including CRE)</li>
+<li><strong>XDR <em>P. aeruginosa</em></strong> (including MBL)</li>
+<li><em>A. baumannii</em> complex</li>
+</ul>
+</div></div>
+<p><strong>Dosing:</strong> 3 g (2 g + 1 g) q8h over 3 hours</p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Compassionate Use</strong></p>
+</div>
+<div class="callout-content">
+<p>Successful outcomes reported for NDM-producing <em>P. aeruginosa</em> infection</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Zidebactam is unique because it’s not just an enzyme inhibitor - it’s a β-lactam enhancer that actually contributes to bacterial killing through PBP2 binding. This synergistic approach is particularly valuable against Pseudomonas.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="blbli-combinations-comparative-summary" class="slide level2 smaller center">
+<h2>BL/BLI Combinations: Comparative Summary</h2>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 22%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Agent</th>
+<th style="text-align: left;">Class A</th>
+<th style="text-align: left;">Class B (MBL)</th>
+<th style="text-align: left;">Class C</th>
+<th style="text-align: left;">Class D</th>
+<th style="text-align: left;">Target Pathogens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">SUL-DUR</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">✗</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;"><strong>✓✓</strong></td>
+<td style="text-align: left;">CRAB</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ATM-AVI</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">Stable*</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">±</td>
+<td style="text-align: left;">MBL-Enterobacterales</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FEP-ENM</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">✗</td>
+<td style="text-align: left;">✗</td>
+<td style="text-align: left;">✗</td>
+<td style="text-align: left;">ESBL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FEP-TAN</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;"><strong>VIM, NDM</strong></td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">CRE, MBL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FEP-ZID</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">Enhanced</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">✓</td>
+<td style="text-align: left;">XDR-PA, CRE</td>
+</tr>
+</tbody>
+</table>
+<p><em>*Aztreonam stable to MBLs; avibactam covers serine enzymes</em></p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Selection Guide</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><strong>CRAB</strong> → Sulbactam-durlobactam</li>
+<li><strong>MBL-Enterobacterales</strong> → ATM-AVI or FEP-TAN (when available)</li>
+<li><strong>ESBL</strong> → Cefepime-enmetazobactam</li>
+<li><strong>XDR Pseudomonas</strong> → Cefepime-zidebactam (when available)</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This summary table helps guide agent selection based on the resistance mechanism you’re dealing with. Note how each agent has a slightly different niche - there’s no single “best” agent; it depends on the pathogen and resistance mechanism.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="part-3-oral-carbapenems-and-other-novel-agents" class="title-slide slide level1 center" data-background-color="#2c3e50">
+<h1>Part 3: Oral Carbapenems and Other Novel Agents</h1>
+
+</section>
+<section id="oral-carbapenems-addressing-the-iv-to-po-gap" class="slide level2 center">
+<h2>Oral Carbapenems: Addressing the IV-to-PO Gap</h2>
+<p><strong>The Clinical Need:</strong></p>
+<ul>
+<li>Patients stable on IV carbapenems</li>
+<li>Need oral step-down therapy</li>
+<li>Current options limited for MDR gram-negatives</li>
+</ul>
+<p><strong>Two Agents in Development:</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Agent</th>
+<th style="text-align: left;">Status</th>
+<th style="text-align: left;">Primary Indication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tebipenem</td>
+<td style="text-align: left;">Phase 3 ongoing</td>
+<td style="text-align: left;">cUTI/AP</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sulopenem</td>
+<td style="text-align: left;"><strong>FDA Approved</strong></td>
+<td style="text-align: left;">uUTI</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Oral carbapenems could transform how we manage ESBL and AmpC infections by enabling earlier transition from IV therapy, potentially reducing hospital stays and costs.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tebipenem" class="slide level2 center">
+<h2>Tebipenem</h2>
+<p><strong>Oral carbapenem prodrug (pivoxil hydrobromide)</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Spectrum:</strong></p>
+<ul>
+<li>MDR Enterobacterales</li>
+<li>ESBL-producers</li>
+<li>Selected gram-positives</li>
+<li><strong>NOT carbapenemase-producers</strong></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>ADAPT-PO Trial:</strong></p>
+<ul>
+<li>Tebipenem 600 mg PO q8h</li>
+<li>vs.&nbsp;ertapenem 1 g IV daily</li>
+<li><strong>Noninferiority achieved</strong></li>
+<li>Similar safety profile</li>
+</ul>
+</div></div>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Current Status</strong></p>
+</div>
+<div class="callout-content">
+<p>Initial NDA insufficient for FDA approval - <strong>PIVOT-PO</strong> trial (vs.&nbsp;IV imipenem) ongoing</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Tebipenem showed good results in the ADAPT-PO trial but the FDA wanted additional data. The PIVOT-PO trial is now comparing it to IV imipenem-cilastatin to provide more robust evidence.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sulopenem-orlynvah" class="slide level2 smaller center">
+<h2>Sulopenem (Orlynvah)</h2>
+<p><strong>FDA Approved</strong> for uncomplicated UTI</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Spectrum:</strong></p>
+<ul>
+<li>MDR Enterobacterales</li>
+<li>ESBL-producers</li>
+<li>AmpC-producers</li>
+<li><strong>NOT carbapenemase-producers</strong></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Development Path:</strong></p>
+<ul>
+<li>Initial Phase 3: Variable results</li>
+<li><strong>REASSURE Trial:</strong> Noninferiority to amoxicillin-clavulanate achieved</li>
+<li>NDA resubmitted 2024</li>
+</ul>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Clinical Niche</strong></p>
+</div>
+<div class="callout-content">
+<p>Sulopenem offers an <strong>oral option</strong> for patients with MDR gram-negative uUTI who have limited other oral alternatives</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Sulopenem fills an important niche for uncomplicated UTI caused by MDR organisms where few oral options exist. It’s not for complicated infections or carbapenemase-producers.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ceftobiprole-zevtera-fifth-generation-cephalosporin" class="slide level2 center">
+<h2>Ceftobiprole (Zevtera): Fifth-Generation Cephalosporin</h2>
+<p><strong>FDA Approved</strong> for multiple MRSA indications</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>Inhibits PBPs including <strong>PBP2a</strong></li>
+<li>Active against MRSA</li>
+<li>Broad gram-positive/gram-negative activity</li>
+</ul>
+<p><strong>Approved Indications:</strong></p>
+<ul>
+<li><em>S. aureus</em> bacteremia</li>
+<li>Right-sided endocarditis</li>
+<li>ABSSSI</li>
+<li>Community-acquired pneumonia</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Dosing:</strong></p>
+<ul>
+<li>500 mg IV over 2 hours</li>
+<li>Every 6-8 hours</li>
+<li>Renal adjustment required</li>
+</ul>
+<p><strong>ERADICATE Trial:</strong></p>
+<p>Noninferior to daptomycin for complicated <em>S. aureus</em> bacteremia</p>
+</div></div>
+<aside class="notes">
+<p>Ceftobiprole is the first β-lactam approved for MRSA bacteremia in the US. Its ability to bind PBP2a allows it to overcome the main mechanism of methicillin resistance. This gives us a β-lactam option alongside vancomycin and daptomycin.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="contezolid-safer-oxazolidinone" class="slide level2 center">
+<h2>Contezolid: Safer Oxazolidinone?</h2>
+<p><strong>Novel oxazolidinone</strong> in development</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Design Goal:</strong></p>
+<p>Reduce myelosuppression and serotonergic effects seen with linezolid/tedizolid</p>
+<p><strong>Spectrum:</strong></p>
+<ul>
+<li>MRSA</li>
+<li>VRE</li>
+<li>Penicillin-resistant <em>S. pneumoniae</em></li>
+</ul>
+<p><strong>Phase 3 (cSSTI):</strong></p>
+<p>Noninferior to linezolid with potentially better safety</p>
+</div><div class="column" style="width:40%;">
+<p><strong>Availability:</strong></p>
+<ul>
+<li>IV and oral formulations</li>
+<li>Global trial for diabetic foot infection ongoing</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>Oxazolidinones are valuable for resistant gram-positives, but myelosuppression limits longer-term use. Contezolid aims to provide the same efficacy with an improved safety profile.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="afabicin-selective-anti-staphylococcal-agent" class="slide level2 center">
+<h2>Afabicin: Selective Anti-Staphylococcal Agent</h2>
+<p><strong>Novel FabI inhibitor</strong> with unique selectivity</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>Enoyl-acyl carrier protein reductase (FabI) inhibitor</li>
+<li>Targets fatty acid synthesis</li>
+<li><strong>Highly selective for <em>S. aureus</em></strong></li>
+</ul>
+<p><strong>Not active against:</strong></p>
+<ul>
+<li>Other gram-positives</li>
+<li>Gram-negatives</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Clinical Development:</strong></p>
+<ul>
+<li>Phase 2: Noninferior to vancomycin/linezolid for staphylococcal ABSSSI</li>
+<li>Planned: Bone and joint infection trials</li>
+</ul>
+<p><strong>Advantage:</strong></p>
+<p>Narrow spectrum = antimicrobial stewardship friendly</p>
+</div></div>
+<aside class="notes">
+<p>Afabicin’s extremely narrow spectrum is actually a feature, not a bug, from a stewardship perspective. When you know it’s a staph infection, using a highly targeted agent minimizes collateral damage to the microbiome.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="gepotidacin-novel-topoisomerase-inhibitor" class="slide level2 smaller center">
+<h2>Gepotidacin: Novel Topoisomerase Inhibitor</h2>
+<p><strong>First-in-class triazaacenaphthylene</strong> for uUTI and gonorrhea</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>Inhibits DNA gyrase AND topoisomerase IV</li>
+<li><strong>Distinct binding site from fluoroquinolones</strong></li>
+<li>Active against FQ-resistant strains</li>
+</ul>
+<p><strong>Spectrum:</strong></p>
+<ul>
+<li>Gram-positives</li>
+<li>Gram-negatives including MDR <em>E. coli</em></li>
+<li><strong>MDR <em>N. gonorrhoeae</em></strong></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Dosing (oral):</strong></p>
+<ul>
+<li>uUTI: 1500 mg BID × 5 days</li>
+<li>Gonorrhea: 3000 mg × 2 doses (10-12h apart)</li>
+</ul>
+<p><strong>Phase 3 Results:</strong></p>
+<ul>
+<li>Noninferior to nitrofurantoin (uUTI)</li>
+<li>Noninferior to ceftriaxone + azithromycin (gonorrhea)</li>
+</ul>
+</div></div>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Addressing a Critical Need</strong></p>
+</div>
+<div class="callout-content">
+<p>Gepotidacin provides an <strong>oral option</strong> for gonorrhea - crucial as resistance to ceftriaxone emerges</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Gepotidacin is particularly important for gonorrhea treatment. With increasing ceftriaxone resistance, we need alternatives. Having an oral option that works against resistant strains could transform gonorrhea management.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="zoliflodacin-single-dose-gonorrhea-treatment" class="slide level2 center">
+<h2>Zoliflodacin: Single-Dose Gonorrhea Treatment</h2>
+<p><strong>First-in-class spiropyrimidinetrione</strong> for <em>N. gonorrhoeae</em></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>Type II topoisomerase inhibitor</li>
+<li><strong>Unique binding sites</strong> on DNA gyrase</li>
+<li>Distinct from fluoroquinolones</li>
+</ul>
+<p><strong>Key advantage:</strong></p>
+<p>Active against strains resistant to:</p>
+<ul>
+<li>Cephalosporins</li>
+<li>Fluoroquinolones</li>
+<li>Other drug classes</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Phase 3 Results:</strong></p>
+<p><strong>Single 3-g oral dose:</strong></p>
+<ul>
+<li>Noninferior to IM ceftriaxone + oral azithromycin</li>
+<li>High cure rates for urogenital/rectal infection</li>
+<li>Lower efficacy for pharyngeal infection</li>
+</ul>
+</div></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Clinical Pearl</strong></p>
+</div>
+<div class="callout-content">
+<p>Single-dose oral therapy dramatically improves <strong>treatment adherence</strong> - critical for STI management</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Single-dose therapy is crucial for STI treatment where follow-up is often difficult. Having an oral agent that works against MDR gonorrhea in a single dose could significantly improve public health outcomes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="other-agents-brief-overview" class="slide level2 smaller center">
+<h2>Other Agents: Brief Overview</h2>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Fosfomycin IV</a></li><li><a href="#tabset-4-2">CDI Agents</a></li><li><a href="#tabset-4-3">Epetraborole</a></li><li><a href="#tabset-4-4">Fusidic Acid</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<ul>
+<li>Broad-spectrum (gram-pos/gram-neg)</li>
+<li><strong>ZEUS trial:</strong> Noninferior to pip-tazo for cUTI/AP</li>
+<li>Development halted (Nabriva bankruptcy 2023)</li>
+<li>Oral form available in US</li>
+</ul>
+</div>
+<div id="tabset-4-2">
+<p><strong>Ridinilazole:</strong></p>
+<ul>
+<li>Bibenzidamole disrupting cell division</li>
+<li>Targeted activity against <em>C. difficile</em></li>
+</ul>
+<p><strong>Ibezapolstat:</strong></p>
+<ul>
+<li>DNA polymerase IIIC inhibitor</li>
+<li>Also targets <em>C. difficile</em></li>
+</ul>
+</div>
+<div id="tabset-4-3">
+<ul>
+<li>First-in-class LeuRS inhibitor</li>
+<li>In development for <strong>NTM infections</strong></li>
+<li>Activity against MAC and <em>M. abscessus</em></li>
+</ul>
+</div>
+<div id="tabset-4-4">
+<ul>
+<li>Available outside US for decades</li>
+<li>Narrow spectrum (staphylococci)</li>
+<li>Usually adjunctive therapy</li>
+<li>No current US development</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Let me briefly mention some other agents in development. Each fills a specific niche - NTM infections, C. diff, etc. The fosfomycin story is unfortunate, as the IV form showed promise but development was abandoned after the company’s bankruptcy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="part-4-summary-and-conclusions" class="title-slide slide level1 center" data-background-color="#2c3e50">
+<h1>Part 4: Summary and Conclusions</h1>
+
+</section>
+<section id="novel-agents-summary-table" class="slide level2 smaller center">
+<h2>Novel Agents Summary Table</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 20%">
+<col style="width: 42%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Agent</th>
+<th style="text-align: left;">Target</th>
+<th style="text-align: left;">Key Indications</th>
+<th style="text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>SUL-DUR</strong></td>
+<td style="text-align: left;">CRAB</td>
+<td style="text-align: left;">HABP/VABP</td>
+<td style="text-align: left;">FDA approved</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>ATM-AVI</strong></td>
+<td style="text-align: left;">MBL-Enterobacterales</td>
+<td style="text-align: left;">cIAI, HABP/VABP</td>
+<td style="text-align: left;">Late development</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>FEP-ENM</strong></td>
+<td style="text-align: left;">ESBL</td>
+<td style="text-align: left;">cUTI/AP</td>
+<td style="text-align: left;">FDA approved</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>FEP-TAN</strong></td>
+<td style="text-align: left;">CRE, MBL</td>
+<td style="text-align: left;">cUTI/AP</td>
+<td style="text-align: left;">Phase 3 complete</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>FEP-ZID</strong></td>
+<td style="text-align: left;">XDR-PA, CRE</td>
+<td style="text-align: left;">cUTI/AP</td>
+<td style="text-align: left;">Phase 3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Sulopenem</strong></td>
+<td style="text-align: left;">MDR Enterobacterales</td>
+<td style="text-align: left;">uUTI</td>
+<td style="text-align: left;">FDA approved</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Ceftobiprole</strong></td>
+<td style="text-align: left;">MRSA</td>
+<td style="text-align: left;">Bacteremia, ABSSSI, CABP</td>
+<td style="text-align: left;">FDA approved</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Gepotidacin</strong></td>
+<td style="text-align: left;">MDR <em>E. coli</em>, <em>N. gonorrhoeae</em></td>
+<td style="text-align: left;">uUTI, gonorrhea</td>
+<td style="text-align: left;">Phase 3 complete</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Zoliflodacin</strong></td>
+<td style="text-align: left;">MDR <em>N. gonorrhoeae</em></td>
+<td style="text-align: left;">Gonorrhea</td>
+<td style="text-align: left;">Phase 3 complete</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>This summary table provides a quick reference for agent selection based on target pathogen and indication. Note that several agents are already FDA approved while others are in late-stage development.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-takeaways" class="slide level2 smaller center">
+<h2>Key Takeaways</h2>
+<ol type="1">
+<li class="fragment"><p><strong>The AMR challenge is growing</strong> - MDR organisms continue to emerge faster than new treatments</p></li>
+<li class="fragment"><p><strong>Critical priority pathogens</strong> (CRAB, CRE) now have improved treatment options with novel BL/BLI combinations</p></li>
+<li class="fragment"><p><strong>MBL-producing organisms</strong> - ATM-AVI and FEP-TAN address this previously untreatable gap</p></li>
+<li class="fragment"><p><strong>Oral options expanding</strong> - Sulopenem approved; tebipenem, gepotidacin in development</p></li>
+<li class="fragment"><p><strong>Economic sustainability</strong> remains a challenge - pull incentives needed alongside push incentives</p></li>
+<li class="fragment"><p><strong>Antimicrobial stewardship</strong> essential - new agents should be reserved for appropriate indications</p></li>
+</ol>
+<aside class="notes">
+<p>These six takeaways summarize the key messages from this lecture. The field is advancing, but we must balance access with stewardship to preserve these new agents for as long as possible.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-decision-framework" class="slide level2 center">
+<h2>Clinical Decision Framework</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    A[Suspected MDR Infection] --&gt; B{Organism ID?}
+    B --&gt;|A. baumannii| C[SUL-DUR]
+    B --&gt;|Enterobacterales| D{Resistance Mechanism?}
+    D --&gt;|ESBL| E[FEP-ENM]
+    D --&gt;|KPC| F[Existing options or FEP-TAN]
+    D --&gt;|MBL| G[ATM-AVI or FEP-TAN]
+    B --&gt;|P. aeruginosa| H{MBL-producing?}
+    H --&gt;|Yes| I[FEP-ZID when available]
+    H --&gt;|No| J[Existing options]
+    B --&gt;|MRSA| K[Ceftobiprole or existing options]
+    B --&gt;|N. gonorrhoeae| L[Gepotidacin/Zoliflodacin when available]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This framework helps guide empiric and directed therapy decisions based on the pathogen and resistance mechanism. Always confirm susceptibility when available.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="looking-forward" class="slide level2 center">
+<h2>Looking Forward</h2>
+<p><strong>Promising developments:</strong></p>
+<ul>
+<li>Multiple agents in Phase 3 trials</li>
+<li>First MBL-active inhibitors approaching market</li>
+<li>Oral options for MDR infections expanding</li>
+</ul>
+<p><strong>Ongoing challenges:</strong></p>
+<ul>
+<li>Post-approval sustainability for manufacturers</li>
+<li>Appropriate use and stewardship</li>
+<li>Continued emergence of novel resistance mechanisms</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Final Thought</strong></p>
+</div>
+<div class="callout-content">
+<p>New antibiotics are necessary but not sufficient - <strong>stewardship, infection prevention, and diagnostics</strong> must work together to combat AMR</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>As we conclude, remember that new antibiotics alone won’t solve the AMR crisis. We need a comprehensive approach that includes rapid diagnostics, infection prevention, and judicious use of all antimicrobials.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="questions" class="slide level2 center">
+<h2>Questions?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Key Resources:</strong></p>
+<ul>
+<li>WHO Priority Pathogens List</li>
+<li>FDA prescribing information</li>
+<li>IDSA/SIDP guidelines</li>
+<li>Local antibiogram</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Contact Information:</strong></p>
+<p>[Insert presenter contact]</p>
+<p><strong>Acknowledgments:</strong></p>
+<p>Chapter adapted from Molina KC, Miller MA, Barber GR. <em>Antibiotics in Advanced Development and Other Agents.</em> Chapter 35.</p>
+</div></div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" role="list">
+
+</div>
+</section>
+<section id="supplementary-dosing-quick-reference" class="slide level2 smaller center">
+<h2>Supplementary: Dosing Quick Reference</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Agent</th>
+<th style="text-align: left;">Dose</th>
+<th style="text-align: left;">Frequency</th>
+<th style="text-align: left;">Infusion</th>
+<th style="text-align: left;">Renal Adjustment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">SUL-DUR</td>
+<td style="text-align: left;">2 g (1g-1g)</td>
+<td style="text-align: left;">q6h</td>
+<td style="text-align: left;">3 hours</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ATM-AVI</td>
+<td style="text-align: left;">1500-500 mg*</td>
+<td style="text-align: left;">q6h</td>
+<td style="text-align: left;">3 hours</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FEP-ENM</td>
+<td style="text-align: left;">2-0.5 g</td>
+<td style="text-align: left;">q8h</td>
+<td style="text-align: left;">2 hours</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FEP-TAN</td>
+<td style="text-align: left;">2.5 g (2g-500mg)</td>
+<td style="text-align: left;">q8h</td>
+<td style="text-align: left;">2 hours</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FEP-ZID</td>
+<td style="text-align: left;">3 g (2g-1g)</td>
+<td style="text-align: left;">q8h</td>
+<td style="text-align: left;">3 hours</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ceftobiprole</td>
+<td style="text-align: left;">500 mg</td>
+<td style="text-align: left;">q6-8h</td>
+<td style="text-align: left;">2 hours</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+</tbody>
+</table>
+<p><em>*Loading dose: 500-167 mg</em></p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Clinical Pearl</strong></p>
+</div>
+<div class="callout-content">
+<p>Extended infusions optimize <strong>time above MIC</strong> for these β-lactam agents</p>
+</div>
+</div>
+</div>
+</section>
+<section id="supplementary-mechanism-comparison" class="slide level2 center">
+<h2>Supplementary: Mechanism Comparison</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    subgraph Sulbactam-Durlobactam
+        S1[Sulbactam binds PBP1/3]
+        S2[Durlobactam inhibits OXA]
+    end
+    subgraph Aztreonam-Avibactam
+        A1[Aztreonam stable to MBL]
+        A2[Avibactam inhibits serine BL]
+    end
+    subgraph Cefepime-Taniborbactam
+        C1[Cefepime binds PBP]
+        C2[Taniborbactam inhibits Class A,B,C,D]
+    end
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Chapter 35: Novel Antibiotics in Development</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="chapter-slides_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="chapter-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="chapter-slides_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

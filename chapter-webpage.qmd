@@ -1,0 +1,547 @@
+---
+title: "Antibiotics in Advanced Development and Other Agents"
+subtitle: "Chapter 35"
+author:
+  - name: Kyle C. Molina
+  - name: Matthew A. Miller
+  - name: Gerard R. Barber
+date: last-modified
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+bibliography: references.bib
+csl: vancouver.csl
+---
+
+## Introduction {#sec-introduction}
+
+Antimicrobial resistance (AMR) is a critical public health challenge, causing substantial morbidity and mortality globally [@Murray2022]. The discovery of penicillin in 1928, marking the dawn of the antibiotic era, is widely recognized as one of the most significant advancements in modern medicine. Yet the continued use of antibiotics was threatened from the beginning, because by 1942 penicillin resistance among *Staphylococcus aureus* was reported [@Lobanovska2017]. Since then, AMR has been detected shortly after introducing each new antimicrobial agent in all regions of the world.
+
+::: {.callout-warning}
+## The AMR Crisis
+Contemporary multidrug-resistant (MDR) organisms have limited available treatment options, resulting in an estimated **700,000 deaths annually**. If left unchecked, the problem of AMR is estimated to contribute to over **10 million deaths per year globally by 2050** [@Murray2022].
+:::
+
+Thus there remains an urgent need for the continued development of novel antibacterial agents with unique modes of action to attenuate the impact of AMR on public health globally.
+
+### Legislative Efforts to Combat AMR
+
+In the past few decades, public health organizations and professional societies worldwide have called for global commitment toward antimicrobial research and development (R&D) to ensure a diverse and robust pipeline of antibacterial agents to combat the growing problem of AMR.
+
+::: {.callout-note}
+## The GAIN Act (2012)
+The **Generating Antibiotic Incentives Now Act (GAIN)** provided push incentives (i.e., financial or nonfinancial support to stimulate discovery and development of new antibiotics) by:
+
+- Extending exclusivity
+- Providing fast track and priority review for antibacterials designated as qualified infectious disease products (QIDP)
+
+The implementation of these provisions coincided with FDA approval of **17 new systemic antibiotics between 2010 and 2020**, including antibiotics targeting important pathogens such as carbapenem-resistant Enterobacterales (CRE) and methicillin-resistant *S. aureus* (MRSA) [@Chahine2022].
+:::
+
+Although the GAIN Act aimed to revitalize antibiotic development, it did not fully address many fundamental drug development challenges [@Darrow2020]. Several agents developed during that period targeted similar pathogens, were not new chemical entities, and lacked unique modes of action. Further, though push incentives such as GAIN support earlier stages of development, they fail to secure post-approval sustainability because they do not address ongoing market challenges.
+
+::: {.callout-important}
+## The Plazomicin Case Study
+In a particularly telling case, a company that obtained FDA approval for a new aminoglycoside, plazomicin, could not sustain itself financially after approval because of low sales volume, because the drug, aimed at resistant organisms, was reserved as a treatment of last resort.
+:::
+
+In response to the challenging environment, US legislative efforts by key stakeholders are now pivoting toward **pull incentives** (i.e., mechanisms that reward companies or researchers after successfully bringing new antibiotics to the market), like subscription models that compensate drug developers based on an antimicrobial's societal value rather than sales volume.
+
+## WHO Priority Pathogens List {#sec-who-priority}
+
+In 2017 the World Health Organization published a list of antibiotic-resistant bacteria from 12 families that are priority pathogens in the research and development of antimicrobial agents, which was further updated in 2024 (@tbl-who-priority).
+
+Pathogens are categorized as **critical**, **high**, or **medium** priority based on:
+
+- Their resistance to existing drugs
+- How easily they spread resistance
+- Their impact on health care systems and patient health
+
+| Priority Level | Pathogen | Resistance Pattern |
+|:---------------|:---------|:-------------------|
+| **Critical** | *Acinetobacter baumannii* | Carbapenem-resistant |
+| **Critical** | Enterobacterales | Carbapenem-resistant, third-generation cephalosporin-resistant |
+| **High** | *Salmonella* Typhi | Fluoroquinolone-resistant |
+| **High** | *Shigella* spp. | Fluoroquinolone-resistant |
+| **High** | *Enterococcus faecium* | Vancomycin-resistant |
+| **High** | *Pseudomonas aeruginosa* | Carbapenem-resistant |
+| **High** | Nontyphoidal *Salmonella* | Fluoroquinolone-resistant |
+| **High** | *Neisseria gonorrhoeae* | Third-generation cephalosporin-resistant, fluoroquinolone-resistant |
+| **High** | *Staphylococcus aureus* | Methicillin-resistant, vancomycin-resistant |
+| **Medium** | Group A streptococci | Macrolide-resistant |
+| **Medium** | *Streptococcus pneumoniae* | Macrolide-resistant |
+| **Medium** | *Haemophilus influenzae* | Ampicillin-resistant |
+| **Medium** | Group B streptococci | Penicillin-resistant |
+
+: WHO Priority Pathogens List for Research and Development of New Antibiotics {#tbl-who-priority}
+
+The critical priority pathogens, *Acinetobacter baumannii* and Enterobacterales, are characterized by resistance to carbapenems or advanced-generation cephalosporins. High-priority pathogens include resistant gram-positive organisms *Enterococcus faecium* and *S. aureus*, in addition to carbapenem-resistant *Pseudomonas aeruginosa*, fluoroquinolone-resistant *Salmonella* spp. and *Shigella* spp., and *Neisseria gonorrhoeae* with resistance to cephalosporins and fluoroquinolones.
+
+::: {.callout-tip}
+## Chapter Focus
+This chapter underscores the critical development of innovative antibacterial agents nearing the end of clinical development, specifically targeting high-priority pathogens resistant to existing treatments.
+:::
+
+## β-Lactam/β-Lactamase Inhibitor Combinations {#sec-bli-combinations}
+
+### Sulbactam-Durlobactam (Xacduro) {#sec-sulbactam-durlobactam}
+
+Sulbactam-durlobactam (SUL-DUR; Xacduro™, Innoviva Specialty Therapeutics, Waltham, MA) is a β-lactam/β-lactamase inhibitor combination specifically developed for the treatment of MDR *A. baumannii-calcoaceticus* complex infections.
+
+::: {.callout-note}
+## Mechanism of Action
+**Sulbactam**, historically used as a β-lactamase inhibitor against class A β-lactamases, possesses intrinsic activity against *A. baumannii-calcoaceticus* complex owing to affinity for penicillin-binding proteins (PBP) 1a/1b and 3. Resistance from Ambler class A, C, and D enzymes among contemporary *A. baumannii-calcoaceticus* complex isolates limits routine use of sulbactam monotherapy [@Penwell2015].
+
+**Durlobactam** (formerly ETX2514) is a novel diazabicyclooctane (DBO) β-lactamase inhibitor with potent activity against Ambler class A, C, and D serine β-lactamases, restoring the activity of sulbactam [@DurandReville2017]. Durlobactam is unique among DBO class β-lactamase inhibitors (avibactam and relebactam), demonstrating activity against class D carbapenemases belonging to the OXA family (e.g., OXA-23, OXA-24/40) produced by *A. baumannii-calcoaceticus* complex. Further, durlobactam exerts direct antibacterial activity against some bacterial species via direct binding of PBP2.
+:::
+
+#### In Vitro Activity
+
+In global surveillance, including 5032 *A. baumannii-calcoaceticus* complex clinical isolates, the minimum inhibitory concentrations (MICs) at which 50% and 90% of isolates were inhibited (MIC~50/90~) for SUL-DUR were **1/2 mg/L** compared to **8/64 mg/L** for sulbactam alone [@Karlowsky2022].
+
+SUL-DUR was granted FDA approval in **May 2023** for the treatment of adults with nosocomial pneumonia due to susceptible *A. baumannii-calcoaceticus* complex strains (FDA and Clinical and Laboratory Standards Institute [CLSI] susceptibility breakpoint ≤4/4 mg/L).
+
+#### Pharmacokinetics
+
+The pharmacokinetics (PK) and safety of SUL-DUR were assessed in a phase 1, randomized, placebo-controlled trial of 124 healthy adults [@Lickliter2017]:
+
+- In the single, ascending dose study, DUR given at doses ranging from 0.25 to 8 g showed linear, dose-proportional PK with renal excretion as the primary mode of clearance
+- In the multiple ascending dose study, DUR administered at doses of 0.25, 0.5, 1, and 2 g every 6 hours over a 3-hour infusion demonstrated minimal accumulation
+- The steady-state exposure was consistent with the short half-life of the agent (range, 1.4–3.6 hours)
+- The addition of SUL or imipenem to DUR did not alter the PK profile of any agent
+
+::: {.callout-tip}
+## Recommended Dosing
+PK-PD studies suggest **2 g (1 g–1 g) sulbactam-durlobactam via 3-hour infusion every 6 hours** as optimal for those with normal renal function.
+:::
+
+#### Clinical Trials
+
+**Phase 2 Trial (cUTI/AP)**
+
+A phase 2 trial of hospitalized adults with acute complicated urinary tract infection (cUTI), including acute pyelonephritis (AP), randomized patients 2:1 to receive either SUL-DUR at 1 g−1 g or a matching placebo every 6 hours administered over 3 hours for 7 days [@Sagan2020]. All subjects received background imipenem-cilastatin 500 mg every 6 hours infused over 30 minutes.
+
+- SUL-DUR (*n* = 53) or placebo (*n* = 27)
+- Rates of clinical cure in the microbiologically modified intent-to-treat (m-MITT) population were similar: **76.6%** with SUL-DUR and **81.0%** in placebo group
+- Common adverse events: headache (5.7%), nausea (3.8%), diarrhea (3.8%), and vascular pain (3.8%)
+
+**Phase 3 ATTACK Trial**
+
+The landmark, phase 3, ATTACK study was a two-part registrational trial assessing SUL-DUR in the treatment of infections caused by carbapenem-resistant *A. baumannii-calcoaceticus* complex (CRAB) [@Kaye2023].
+
+::: {.callout-important}
+## Part A: Randomized Comparison vs. Colistin
+- **Design**: Randomized, noninferiority trial in patients with HABP, VABP, VP, or BSI
+- **Treatment arms**: SUL-DUR 2 g (1 g–1 g) q6h over 3h vs. colistin 2.5 mg/kg q12h over 30 min
+- **Background therapy**: Imipenem-cilastatin 1 g–1 g q6h
+- **Results (m-MITT, n = 64 per arm)**:
+  - 28-day mortality: **19.0% vs. 32.3%** (SUL-DUR vs. colistin)
+  - Difference: −13.2; 95% CI, −30.0 to 3.5 (noninferiority achieved)
+  - Clinical cure: **61.9% vs. 40.3%**
+  - Drug-related adverse events: **12.3% vs. 30.2%**
+  - Nephrotoxicity (RIFLE criteria): **13.2% vs. 37.6%** (*P* = .0002)
+:::
+
+Part B of the ATTACK study was a supportive study of open-label SUL-DUR conducted among patients with HABP, VABP, BSI, cUTI, AP, or surgical wound infections with colistin-resistant *A. baumannii-calcoaceticus* complex or who were intolerant to polymyxin-based therapy [@Kaye2023].
+
+::: {.callout-note}
+## Summary: Sulbactam-Durlobactam
+SUL-DUR is a novel β-lactam/β-lactamase combination with potent in vitro activity against MDR *A. baumannii-calcoaceticus* complex, owing to broad-spectrum inhibition of OXA group carbapenemases. The agent has demonstrated clinical efficacy, including a suggestion of benefit in improving all-cause mortality over a current treatment approach, in a phase 3 trial. Given the pressing need for improved treatment options against this pathogen, SUL-DUR is a welcome addition to the armamentarium against *A. baumannii-calcoaceticus* complex, which remains among the most difficult-to-treat pathogens worldwide.
+:::
+
+### Aztreonam-Avibactam {#sec-aztreonam-avibactam}
+
+Aztreonam-avibactam (ATM-AVI; Pfizer Inc., New York, NY; AbbVie, North Chicago, IL) is a β-lactam/β-lactamase inhibitor combination in development for the treatment of infections caused by MDR gram-negative organisms, including metallo-β-lactamase (MBL)-producing organisms.
+
+::: {.callout-note}
+## Mechanism of Action
+**Aztreonam (ATM)**, a monobactam antimicrobial, has activity against pathogens solely producing Ambler class B MBLs. However, many MBL-producing strains co-produce Ambler class A, C, and D serine β-lactamases, which may hydrolyze ATM, rendering the agent inactive [@Evans2014].
+
+**Avibactam (AVI)**, a DBO class β-lactamase inhibitor previously approved in combination with ceftazidime, can prevent the hydrolysis of ATM via inhibition of such serine β-lactamases.
+:::
+
+#### In Vitro Activity
+
+In an evaluation of the in vitro potency of ATM-AVI against 27,834 Enterobacterales isolates collected in the United States between 2019 and 2021:
+
+- ATM-AVI inhibited **>99.9%** of Enterobacterales at MICs of ≤8 mg/L [@Sader2023]
+- ATM-AVI inhibited **99.6%** of CRE (*n* = 261), including **100%** of MBL-producing strains (*n* = 33)
+- MIC~50/90~ of **0.25/0.5 mg/L**
+
+Other surveillance studies have demonstrated that AVI only minimally restores the activity of ATM against *P. aeruginosa*, including MBL-producing strains, suggesting a limited role of ATM-AVI against this organism [@Karlowsky2017].
+
+#### Clinical Development
+
+ATM-AVI was initially evaluated in a three-part phase 1 trial, investigating the safety, tolerability, and PK of single and multiple doses in healthy adult subjects [@OBrien2016]:
+
+| Part | Dosing | Key Findings |
+|:-----|:-------|:-------------|
+| A | Single 2000-600 mg dose | Well tolerated, ƒT > MIC 60% up to 8 mg/L |
+| B | Multiple doses 1500–410 mg to 2000–375 mg | Linear PK, extensive renal clearance |
+| C | Loading 500–136.7 mg + maintenance 1500-410 mg q6h | Comparable exposure, single AST elevation |
+
+: ATM-AVI Phase 1 Trial Results {#tbl-atmavi-phase1}
+
+::: {.callout-tip}
+## Recommended Dosing
+The ATM-AVI dosing regimen of **500–167 mg loading dose followed by 1500–500 mg (3-hour infusion) every 6 hours** ensures a high probability of PK-PD target attainment up to an MIC of 8 mg/L.
+:::
+
+**Phase 2a REJUVENATE Trial**
+
+The REJUVENATE trial evaluated ATM-AVI's PK, safety, and efficacy with metronidazole in hospitalized patients with complicated intraabdominal infections (cIAI) [@Cornely2020]:
+
+- 40 patients enrolled, 34 in modified ITT (safety), 23 in m-MITT (efficacy)
+- Clinical cure rate: **14/23 (60.9%)**
+- Common adverse events: hepatic enzyme elevations (26.5%) and diarrhea (14.7%)
+
+**Phase 3 Trials: REVISIT and ASSEMBLE**
+
+Major preliminary results of the phase 3 REVISIT and ASSEMBLE trials have been released in limited form [@Pfizer2023]:
+
+- **REVISIT**: Open-label, phase 3 comparing ATM/AVI ± metronidazole against meropenem ± colistin in cIAI, HABP, and VABP
+  - 28-day all-cause mortality: 4/208 (1.9%) for ATM-AVI ± MTZ vs. 3/104 (2.9%) for MER ± COL in cIAI and 8/74 (10.8%) for ATM-AVI ± MTZ vs. 7/36 (19.4%) for MER ± COL in HABP/VABP
+
+- **ASSEMBLE**: Open-label comparing ATM-AVI ± MTZ and best-available therapy (BAT) in serious infections due to MBL-producing bacteria
+  - Terminated early owing to enrollment difficulty (15 of 60 planned patients)
+  - Test-of-cure: 5/12 (41.7%) of ATM/AVI ± MTZ patients cured vs. 0/3 (0%) on BAT
+
+::: {.callout-note}
+## Summary: Aztreonam-Avibactam
+ATM-AVI represents a new β-lactam/β-lactamase inhibitor combination for the treatment of serious infections with MBL-producing Enterobacterales and *S. maltophilia*. Importantly, the combination appears lacking for the treatment of MBL-producing *P. aeruginosa*. As the United States observes an epidemiological shift from serine carbapenemases (KPC) toward an increasing prevalence of MBLs, ATM-AVI will be a welcome addition to the armamentarium.
+:::
+
+### Cefepime-Enmetazobactam (Exblifep) {#sec-cefepime-enmetazobactam}
+
+Cefepime-enmetazobactam (Exblifep®, Allecra Therapeutics SAS, Saint Louis, France) is a novel β-lactam/β-lactamase inhibitor combination approved by the FDA in **February 2024** for treatment of cUTI including AP.
+
+::: {.callout-note}
+## Mechanism of Action
+**Enmetazobactam** (formerly AAI101) is a novel penicillanic acid sulfone, N-methyl derivative of tazobactam. The structural changes to tazobactam result in generation of net-neutral zwitterion-enhancing cell wall penetration and thereby potency.
+
+Enmetazobactam exhibits inhibition of Ambler Class A enzymes CTX-M, TEM, and SHV variants **but not serine carbapenemases such as KPC** [@Papp-Wallace2019].
+:::
+
+#### In Vitro Activity
+
+In surveillance of 1993 clinical isolates collected in the United States and Europe between 2014 and 2015, the addition of enmetazobactam (8 mg/L) to cefepime significantly reduced the MIC~90~ for selected Enterobacterales species:
+
+| Organism | Cefepime MIC~90~ | Cefepime-Enmetazobactam MIC~90~ |
+|:---------|:-----------------|:-------------------------------|
+| *Escherichia coli* | Elevated | Reduced |
+| *Klebsiella pneumoniae* | Elevated | Reduced |
+| *Enterobacter cloacae* | Elevated | Reduced |
+| *Klebsiella aerogenes* | Elevated | Reduced |
+
+: Effect of Enmetazobactam on Cefepime Activity [@Sader2023b] {#tbl-enmetazobactam}
+
+Critically, cefepime-enmetazobactam inhibits **98.8%** and **98.9%** of Enterobacterales resistant to third-generation cephalosporins or ESBL genotype, respectively, at the CLSI breakpoint of 8 mg/L.
+
+#### Phase 3 ALLIUM Trial
+
+The pivotal data supporting FDA approval were obtained via a randomized, multicenter, double-blind noninferiority trial comparing cefepime-enmetazobactam 2 g–0.5 g to piperacillin-tazobactam 4 g–0.5 g, both infused over 2 hours, for 7 to 14 days in patients with cUTI or AP (ALLIUM) [@Wunderink2024]:
+
+::: {.callout-important}
+## ALLIUM Trial Results
+- **Primary analysis** (*n* = 678): Composite clinical cure and microbiological eradication occurred in:
+  - **79.1%** of cefepime-enmetazobactam–treated patients
+  - **58.9%** of piperacillin-tazobactam–treated patients
+  - Δ 21.2%; 95% CI, 14.3% to 27.9% (noninferiority AND hierarchical superiority achieved)
+
+- **ESBL-producing pathogens at baseline**: Cefepime-enmetazobactam achieved higher composite cure (**73.7% vs. 51.5%**)
+
+- **Safety**: Treatment-emergent adverse events similar (50.0% vs. 44.0%); more discontinuations in cefepime-enmetazobactam group (1.7% vs. 0.8%)
+:::
+
+::: {.callout-note}
+## Summary: Cefepime-Enmetazobactam
+Cefepime-enmetazobactam represents a promising treatment option for complicated urinary tract infections, specifically for patients with ESBL-producing Enterobacterales. Its lack of activity against serine carbapenemases limits its role in treating KPC-producing organisms.
+:::
+
+### Cefepime-Taniborbactam {#sec-cefepime-taniborbactam}
+
+Cefepime-taniborbactam is a novel β-lactam/bicyclic boronate-based β-lactamase inhibitor combination.
+
+::: {.callout-note}
+## Mechanism of Action
+**Taniborbactam** exhibits activity against Ambler class A, C, and D serine β-lactamases **and select class B MBLs (VIM, most NDM)**, restoring the activity of cefepime against carbapenemase-producing Enterobacterales.
+:::
+
+#### Clinical Development
+
+::: {.callout-tip}
+## Recommended Dosing
+PK-PD studies suggest **2.5 g (2 g–500 mg) cefepime-taniborbactam every 8 hours infused over 2 hours** as optimal for those with normal renal function.
+:::
+
+**Phase 3 CERTAIN-1 Trial**
+
+The phase 3 CERTAIN-1 trial found cefepime-taniborbactam **superior to meropenem** in treating cUTI, including AP.
+
+### Cefepime-Zidebactam {#sec-cefepime-zidebactam}
+
+Cefepime-zidebactam is a novel β-lactam/bicyclo-acyl hydrazide β-lactam enhancer/inhibitor combination.
+
+::: {.callout-note}
+## Unique Mechanism
+**Zidebactam** is a β-lactam inhibitor that binds strongly to penicillin-binding protein (PBP) 2, complementing the binding of cefepime to PBP3, PBP1a, and PBP2, thereby enhancing its activity against:
+
+- Enterobacterales
+- Extensively drug-resistant and MBL-producing *Pseudomonas aeruginosa*
+- *A. baumannii-calcoaceticus* complex
+:::
+
+::: {.callout-tip}
+## Recommended Dosing
+PK-PD studies support dosing of **3 grams (2 g–1g) cefepime-zidebactam every 8 hours infused over 3 hours**.
+:::
+
+Compassionate use for NDM-producing *P. aeruginosa* infection has been reported with successful outcomes. Additional randomized data are anticipated.
+
+## Oral Carbapenems {#sec-oral-carbapenems}
+
+### Tebipenem {#sec-tebipenem}
+
+Tebipenem pivoxil hydrobromide (HBr) is an oral carbapenem prodrug, with activity against MDR Enterobacterales including ESBL-producing strains and selected gram-positive bacteria.
+
+#### Clinical Development
+
+**Phase 3 ADAPT-PO Trial**
+
+In patients with cUTI including AP, oral tebipenem HBr 600 mg every 8 hours was **noninferior** to ertapenem 1 g daily for 7 to 10 days with similar safety.
+
+::: {.callout-warning}
+## Regulatory Status
+In 2024 Spero Therapeutics began enrollment in a new phase 3 trial, PIVOT-PO, which compares oral tebipenem HBr to IV imipenem-cilastatin in patients with cUTI and AP, after the initial NDA proved insufficient for FDA approval.
+:::
+
+### Sulopenem (Orlynvah) {#sec-sulopenem}
+
+Sulopenem etzadroxil is a carbapenem prodrug, **newly FDA approved** for the treatment of uncomplicated UTI.
+
+::: {.callout-note}
+## In Vitro Activity
+Sulopenem has in vitro activity against multidrug-resistant (MDR) Enterobacterales, including ESBL and AmpC producers.
+:::
+
+#### Clinical Development
+
+Initial phase 3 trials showed variable results, with sulopenem not consistently meeting noninferiority criteria compared to existing treatments, with demonstrated potential in patients with few other oral options.
+
+::: {.callout-important}
+## REASSURE Trial Results
+Topline results from the phase 3 REASSURE trial of sulopenem in uncomplicated UTI (uUTI) demonstrated **noninferiority** of sulopenem to amoxicillin-clavulanate in composite response.
+
+Iterum Therapeutics resubmitted a new drug application (NDA) in 2024 following the completion of REASSURE.
+:::
+
+## Novel Gram-Positive Agents {#sec-gram-positive}
+
+### Ceftobiprole (Zevtera) {#sec-ceftobiprole}
+
+Ceftobiprole is a fifth-generation cephalosporin that inhibits PBPs, including **PBP2a** produced by methicillin-resistant *Staphylococcus aureus* (MRSA).
+
+::: {.callout-important}
+## FDA Approvals
+Ceftobiprole is now FDA approved for adults with:
+
+- *S. aureus* bacteremia, including those with right-sided endocarditis
+- Adults with acute bacterial skin and skin structure infections (ABSSSI)
+- Adult and pediatric patients with community-acquired bacterial pneumonia
+:::
+
+#### In Vitro Activity
+
+Ceftobiprole potently inhibits gram-negative and gram-positive bacteria, including MRSA. In vitro studies indicate selected *P. aeruginosa* and *Enterococcus* spp. exhibit low MICs, though additional clinical evidence is needed to establish efficacy.
+
+#### Phase 3 ERADICATE Trial
+
+In the phase 3 ERADICATE trial, ceftobiprole administered as **500-mg 2-hour infusions every 6 hours for 8 days**, and then every 8 hours thereafter, demonstrated **noninferiority** in overall treatment success compared to daptomycin in adults with complicated *S. aureus* bacteremia.
+
+### Contezolid {#sec-contezolid}
+
+Contezolid is a novel oxazolidinone developed in IV and oral formulations to minimize the myelosuppressive and serotonergic profile observed with currently available oxazolidinones.
+
+::: {.callout-note}
+## Spectrum of Activity
+Displays potent in vitro activity against resistant gram-positive pathogens, including:
+
+- MRSA
+- Penicillin-resistant *Streptococcus pneumoniae*
+- Vancomycin-resistant enterococci (VRE)
+:::
+
+Contezolid demonstrated **noninferiority to linezolid** in a phase 3 trial conducted for the treatment of complicated skin and soft tissue infection, with an additional global trial currently enrolling subjects with diabetic foot infection.
+
+### Afabicin {#sec-afabicin}
+
+Afabicin desphosphono is a prodrug of afabicin, a novel enoyl-acyl carrier protein reductase (FabI) inhibitor.
+
+::: {.callout-note}
+## Unique Selectivity
+Selectively targets fatty acid synthesis in *S. aureus*, **without significant in vitro activity against other gram-positive organisms**.
+:::
+
+In a phase 2 trial, afabicin demonstrated **noninferiority to vancomycin/linezolid** in the treatment of ABSSSI due to staphylococci, with additional trials planned for the treatment of staphylococcal bone or joint infection.
+
+## Novel Topoisomerase Inhibitors {#sec-topoisomerase}
+
+### Gepotidacin {#sec-gepotidacin}
+
+Gepotidacin is a first-in-class triazaacenaphthylene bacterial type IIA topoisomerase (DNA gyrase and topoisomerase IV) inhibitor, acting on a distinct site from fluoroquinolones, with broad in vitro activity against gram-positive and gram-negative pathogens, including MDR *Escherichia coli* and resistant *Neisseria gonorrhoeae*.
+
+::: {.callout-tip}
+## Dosing
+Oral dosing in studies includes:
+- **1500 mg twice daily for 5 days** in uUTI
+- **3000 mg for two doses separated by 10 to 12 hours** in uncomplicated urogenital gonorrhea
+:::
+
+#### Phase 3 Trials
+
+In phase 3 trials, gepotidacin demonstrated:
+
+- **Noninferiority to nitrofurantoin** in composite clinical/microbiological response for treatment of uUTI
+- **Noninferiority to ceftriaxone with azithromycin** for treatment of uncomplicated urogenital gonorrhea
+
+### Zoliflodacin {#sec-zoliflodacin}
+
+Zoliflodacin is a first-in-class spiropyrimidinetrione that acts on a distinct bacterial type II topoisomerases site currently in development as an oral single-dose therapy for *N. gonorrhoeae*, including MDR strains.
+
+::: {.callout-note}
+## Novel Mechanism
+Zoliflodacin has a novel mechanism of inhibition against bacterial type II topoisomerases with binding sites in the bacterial gyrase that are distinct from fluoroquinolones. Importantly, zoliflodacin has potent activity against *N. gonorrhoeae* strains including those with resistance to other drug classes.
+:::
+
+#### Clinical Development
+
+**Phase 2 Trial**
+
+In a phase 2 trial, single-dose zoliflodacin (2 g or 3 g) resulted in high cure rates for treatment of uncomplicated urogenital and rectal gonococcal infection, with lower efficacy for pharyngeal infection.
+
+**Phase 3 Results**
+
+Topline phase 3 trial results suggest that a single oral suspension **3-g dose of zoliflodacin was noninferior** to intramuscular ceftriaxone plus oral azithromycin in the treatment of uncomplicated gonorrhea.
+
+## Other Agents {#sec-other-agents}
+
+### Epetraborole {#sec-epetraborole}
+
+Epetraborole is a first-in-class benazoxaborole leucyl-tRNA synthetase (LeuRS) inhibitor, under clinical development for the treatment of nontuberculous mycobacteria (NTM) infection.
+
+::: {.callout-note}
+## Spectrum of Activity
+In vitro data show broad antimycobacterial activity against:
+
+- *Mycobacterium avium* complex (MAC)
+- *Mycobacterium abscessus*
+:::
+
+### Agents for *Clostridioides difficile* {#sec-cdiff}
+
+#### Ridinilazole
+
+Ridinilazole is a bibenzidamole that disrupts cell division, with targeted activity against *Clostridioides difficile* for the treatment of CDI.
+
+#### Ibezapolstat
+
+Ibezapolstat is a dichlorobenzyl purine analogue DNA polymerase IIIC inhibitor, also targeting *C. difficile* for CDI treatment.
+
+### Fusidic Acid {#sec-fusidic-acid}
+
+Fusidic acid is an antibiotic derived from the fungus *Fusidium coccineum* and is the only commercially available fusidane group antibiotic. It inhibits bacterial protein synthesis by binding ribosomal elongation factor G (EF-G), which blocks translocation of peptidyl transfer RNA and inhibits ribosome disassembly.
+
+::: {.callout-warning}
+## US Development Status
+Fusidic acid is available outside of the United States and has been used extensively in many Western countries for over 40 years. There is currently no development within the United States.
+:::
+
+Fusidic acid has a narrow spectrum of activity against gram-positive bacteria such as *S. aureus* and coagulase-negative staphylococci, including methicillin-resistant strains. In clinical practice, fusidic acid is primarily used as adjunctive therapy for the treatment of staphylococcal infections given that monotherapy appears to result in higher rates of resistance.
+
+### Fosfomycin (ZTI-01, Contepo) {#sec-fosfomycin}
+
+Fosfomycin (Nabriva Therapeutics, Dublin, Ireland) is the first of the epoxide class of antimicrobials. Originally named phosphonomycin, it is a broad-spectrum agent active against a range of drug-resistant gram-negative and gram-positive organisms.
+
+::: {.callout-note}
+## Mechanism of Action
+By inhibition of phosphoenolpyruvate synthetase, fosfomycin inhibits formation of *N*-acetylmuramic acid interfering with cell wall synthesis.
+:::
+
+Oral form previously approved in the United States for uUTI; intravenous formulation long approved outside of the United States.
+
+#### SENTRY Surveillance
+
+The SENTRY surveillance program in 2015 collected 2200 gram-negative and gram-positive isolates from US medical centers:
+
+| Organism | Susceptibility | MIC~50/90~ (mg/L) |
+|:---------|:---------------|:------------------|
+| *E. coli* (randomly selected) | 100% | 0.5/1 |
+| *K. pneumoniae* | 97% ≤64 mg/L | 4/16 |
+| *P. aeruginosa* | Lower activity | 64/128 |
+| *A. baumannii-calcoaceticus* | Variable | 128/256 |
+| *E. faecalis* | 99% susceptible | Variable |
+
+: SENTRY Surveillance: Fosfomycin Activity {#tbl-fosfomycin}
+
+#### Phase 2/3 ZEUS Trial
+
+In the ZEUS phase 2/3 trial involving 465 hospitalized subjects with cUTI or AP:
+
+- **Fosfomycin** (6 g fosfomycin every 8 hours) and **piperacillin-tazobactam** (4.5g every 8 hours) were compared for 7 days
+- Fosfomycin met its noninferiority objective with similar rates of overall success (64.7% vs. 54.5%)
+- Clinical cure at time of cure (day 19, 90.8% vs. 91.6%)
+- Most TEAEs related to fosfomycin were mild with transient GI effects
+
+::: {.callout-warning}
+## Development Challenges
+The bankruptcy and cessation of operations by Nabriva Therapeutics in 2023 have significantly limited the development of IV fosfomycin in the United States, raising questions about its future clinical utility.
+:::
+
+## Summary of Novel Antibacterial Agents {#sec-summary-table}
+
+| Drug Name | Drug Class | Target | Main Pathogens | Indications |
+|:----------|:-----------|:-------|:---------------|:------------|
+| Sulbactam-durlobactam | β-Lactam + β-lactamase inhibitor | PBP1a, PBP1b, PBP3; β-lactamase | CR *A. baumannii-calcoaceticus* | HABP, VABP, BSI |
+| Aztreonam-avibactam | Monobactam + β-lactamase inhibitor | PBP; β-lactamase | CR Enterobacterales, MBL producers, *S. maltophilia* | Serious gram-negative infection (cIAI, HABP/VABP) |
+| Cefepime-enmetazobactam | β-Lactam + β-lactamase inhibitor | PBP; β-lactamase | ESBL-producing Enterobacterales | cUTI including AP |
+| Cefepime-taniborbactam | β-Lactam + β-lactamase inhibitor | PBP; β-lactamase | CR Enterobacterales, MBL producers | cUTI including AP |
+| Cefepime-zidebactam | β-Lactam + β-lactam enhancer | PBP3, PBP1a/1b, PBP2 | CR Enterobacterales, XDR *P. aeruginosa*, MBL producers | cUTI including AP |
+| Tebipenem | Carbapenem | PBP | Third-gen cephalosporin-resistant Enterobacterales | cUTI including AP |
+| Sulopenem | Carbapenem | PBP | Third-gen cephalosporin-resistant Enterobacterales | uUTI, cUTI |
+| Ceftobiprole | Cephalosporin | PBP | MRSA | Bacteremia, ABSSSI, CABP |
+| Contezolid | Oxazolidinone | 50S ribosomal subunit | MRSA, VRE, resistant *S. pneumoniae* | ABSSSI, diabetic foot infection |
+| Afabicin | FabI inhibitor | Enoyl-acyl carrier protein reductase | Selective for *S. aureus* | ABSSSI, bone/joint infections |
+| Gepotidacin | Triazaacenaphthylene | Topoisomerase II | *S. aureus*, *S. pneumoniae*, Enterobacterales, MDR *N. gonorrhoeae* | uUTI, gonococcal infection |
+| Zoliflodacin | Spiropyrimidinetrione | Type II topoisomerases | MDR *N. gonorrhoeae*, *S. aureus* | Gonococcal infection |
+
+: Summary of Activities of Novel Antibacterial Agents {#tbl-summary}
+
+## Overall Conclusions {#sec-conclusions}
+
+The antibacterial agents outlined in this chapter appear promising, with several agents receiving approval for use in the United States only very recently.
+
+::: {.callout-important}
+## Key Takeaways
+
+1. **The present challenge** in finding effective treatment for disease caused by MDR organisms continues to grow
+
+2. **Primary concerns** include resistance within gram-negative organisms to cephalosporin, carbapenem antibiotics, and now newer generation β-lactams and β-lactam/β-lactamase inhibitors
+
+3. **The ongoing emergence and spread of antimicrobial resistance** clearly highlights the need for continued drug development of agents with novel spectra of activity and modes of action
+
+4. **Economic incentives** for industry-sponsored new drug development are promoted by a relative ease in gaining market entry, because regulatory agencies recognize limited available options; however, **sustainability after drug approval** is becoming a focus of newer legislation
+
+5. **New entries to the market** should be shepherded with the best intentions for antimicrobial stewardship and cautious pharmacovigilance, especially to monitor for toxicities and emergent resistance
+
+6. As with any new medication, **time will allow for the distinction of the most useful of these novel antibacterials**
+:::
+
+## References {#sec-references}
+
+::: {#refs}
+:::
