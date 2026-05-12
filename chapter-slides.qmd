@@ -210,7 +210,7 @@ Community-acquired pathogens such as Salmonella typhi and Shigella were elevated
 <br>
 
 | Class | Type | Examples | Inhibited by |
-|:----------------|:----------------|:----------------|:----------------------|
+|:----------------|:----------------|:----------------|:--------------------|
 | **A** | Serine | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam, Xeruborbactam |
 | **B** | Metallo (MBL) | NDM, VIM, IMP | Aztreonam stability only; Xeruborbactam, Taniborbactam |
 | **C** | Serine (AmpC) | AmpC | Avibactam, Xeruborbactam |
@@ -720,7 +720,6 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 :::
 
 ::: aside
-
 The in vitro data show excellent coverage of Enterobacterales, including 100% activity against MBL-producers in this surveillance study. However, it's critical to note that this combination does not work well against Pseudomonas, likely because avibactam doesn't adequately address the resistance mechanisms in that organism. @Sader2023
 :::
 
@@ -750,7 +749,7 @@ The in vitro data show excellent coverage of Enterobacterales, including 100% ac
 - 
 
 ::: notes
-The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.@Cornely2020
+The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.\@Cornely2020
 :::
 
 ## ATM-AVI: Clinical development status
@@ -817,9 +816,9 @@ The ASSEMBLE trial's early termination due to enrollment difficulty actually hig
 
 | Target Organisms | Proportion |
 |:-----------------|:-----------|
-| ESBL-producers   | ~70%       |
-| AmpC             | ~20%       |
-| Other            | ~10%       |
+| ESBL-producers   | \~70%      |
+| AmpC             | \~20%      |
+| Other            | \~10%      |
 
 *Primarily ESBL-producing Enterobacterales*
 :::
@@ -910,13 +909,13 @@ Phase 3 in cUTI/AP showed **superiority to meropenem**
 Cefepime-taniborbactam could be a game-changer because taniborbactam has activity against VIM and most NDM metallo-β-lactamases - something no other approved inhibitor can claim. This means you wouldn't need to use the aztreonam-avibactam combination approach for most MBL-producers.
 :::
 
-## Cefepime-Zidebactam
+## Cefepime-zidebactam
 
 <br>
 
-**In Development** for XDR gram-negative infections
+**In development** for XDR gram-negative infections
 
-**Zidebactam - Unique Mechanism:**
+**Zidebactam - Unique mechanism:**
 
 ::::: columns
 ::: {.column width="50%"}
@@ -1314,7 +1313,7 @@ Let me briefly mention some other agents in development. Each fills a specific n
 <br>
 
 | Agent | Target | Key Indications | Status |
-|:----------------|:--------------------|:----------------|:----------------|
+|:----------------|:-------------------|:----------------|:----------------|
 | **SUL-DUR** | CRAB | HABP/VABP | FDA approved |
 | **ATM-AVI** | MBL-Enterobacterales | cIAI, HABP/VABP | Late development |
 | **FEP-ENM** | ESBL | cUTI/AP | FDA approved |
