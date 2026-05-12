@@ -329,8 +329,8 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 
 <br>
 
-**FDA Approved: May 2023** for HABP/VABP due to *A. baumannii-calcoaceticus* complex
-Not approved in Italy (yet) but can be requested by emergency authorization
+**FDA Approved: May 2023** for HABP/VABP due to *A. baumannii-calcoaceticus* complex.
+Not approved in Italy (yet) but can be requested by emergency authorization.
 
 ::::: columns
 ::: {.column width="50%"}
@@ -473,13 +473,15 @@ Sulbactam-durlobactam is specifically designed for Acinetobacter infections. Wha
 </svg>
 ```
 
+<br> <br>
+
 **Result:** Durlobactam restores sulbactam activity by inhibiting the β-lactamases that would otherwise hydrolyze it
 
-::: notes
+::: aside
 Sulbactam provides bactericidal activity by binding PBP1a/1b and PBP3. Durlobactam is a DBO inhibitor that blocks Class A, C, and D β-lactamases — critically including the OXA-type carbapenemases (OXA-23, OXA-24/40) that are the predominant resistance mechanism in A. baumannii worldwide. Durlobactam also has secondary direct PBP2 binding activity.
 :::
 
-## SUL-DUR: In Vitro Activity
+## SUL-DUR: In vitro activity
 
 <br>
 
@@ -493,7 +495,7 @@ Sulbactam provides bactericidal activity by binding PBP1a/1b and PBP3. Durlobact
 | Colistin                  | 1 mg/L     | 2 mg/L     |
 
 ::: callout-note
-## Susceptibility Breakpoint
+## Susceptibility breakpoint
 
 <br> FDA/CLSI susceptibility: **≤4/4 mg/L** for SUL-DUR
 :::
@@ -502,15 +504,15 @@ Sulbactam provides bactericidal activity by binding PBP1a/1b and PBP3. Durlobact
 **32-fold reduction** in MIC~90~ with durlobactam addition
 :::
 
-::: notes
+::: aside
 The in vitro data are impressive. Adding durlobactam to sulbactam reduces the MIC90 from 64 mg/L to just 2 mg/L - a 32-fold improvement. This brings the vast majority of A. baumannii strains into the susceptible range.
 :::
 
-## SUL-DUR: Pharmacokinetics and Dosing
+## SUL-DUR: Pharmacokinetics and dosing
 
 <br>
 
-**Phase 1 PK Data (healthy adults):**
+**Phase 1 PK data (healthy adults):**
 
 - Linear, dose-proportional pharmacokinetics
 - Primary clearance: **Renal excretion**
@@ -527,11 +529,11 @@ The in vitro data are impressive. Adding durlobactam to sulbactam reduces the MI
 - Renal dose adjustment required for CrCl \<90 mL/min
 :::
 
-::: notes
+::: aside
 The extended 3-hour infusion is important for optimizing time above MIC, which is the key PK-PD parameter for β-lactams. The short half-life necessitates frequent dosing. Renal adjustment is needed since both drugs are primarily renally cleared.
 :::
 
-## SUL-DUR: ATTACK Trial Design {.smaller}
+## SUL-DUR: ATTACK trial design 
 
 <br>
 
@@ -557,6 +559,10 @@ The extended 3-hour infusion is important for optimizing time above MIC, which i
 - Multiple infection types: HABP, VABP, BSI, cUTI, AP, wound infections
 :::
 
+::: aside
+@Kaye2023
+:::
+
 ::: notes
 The ATTACK trial was designed to compare SUL-DUR against the current standard of care for CRAB infections - colistin. Both arms received background imipenem-cilastatin. Part B provided a pathway for patients who couldn't receive colistin.
 :::
@@ -580,6 +586,10 @@ The ATTACK trial was designed to compare SUL-DUR against the current standard of
 ## Key Finding
 
 <br> **Noninferiority achieved** with numerically better mortality, clinical cure, AND reduced nephrotoxicity
+:::
+
+::: aside
+@Kaye2023
 :::
 
 ::: notes
