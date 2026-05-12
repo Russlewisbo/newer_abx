@@ -1591,12 +1591,6 @@ This framework helps guide empiric and directed therapy decisions based on the p
 As we conclude, remember that new antibiotics alone won't solve the AMR crisis. We need a comprehensive approach that includes rapid diagnostics, infection prevention, and judicious use of all antimicrobials.
 :::
 
-## References {.smaller}
-
-<br>
-
-------------------------------------------------------------------------
-
 ## Supplementary: Dosing Quick Reference {.smaller}
 
 <br>
@@ -1749,3 +1743,7 @@ As we conclude, remember that new antibiotics alone won't solve the AMR crisis. 
 
 </div>
 ```
+
+## References
+
+<br>
