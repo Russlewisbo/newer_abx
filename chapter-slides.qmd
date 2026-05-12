@@ -22,7 +22,7 @@ bibliography: new-abx-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Antibiotics in Advanced Development {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#000000" background-opacity="0.3"}
+## Antibiotics for MDR Pathogens in Advanced Stages <br> of Clinical Development {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.3"}
 
 <br>
 
@@ -32,7 +32,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 <center>
 
-**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br>
+**Russell E. Lewis, Pharm.D., FCCP** <br> Associate Professor of Infectious Diseases <br>
 
 <center>
 
@@ -746,10 +746,9 @@ The in vitro data show excellent coverage of Enterobacterales, including 100% ac
 - Achieves steady-state exposure rapidly
 - Critical for severe infections
 - Compensates for renal clearance of both agents
-- 
 
-::: notes
-The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.\@Cornely2020
+::: aside
+The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.[@Cornely2020]
 :::
 
 ## ATM-AVI: Clinical development status
@@ -775,7 +774,7 @@ The loading dose strategy is important here because both aztreonam and avibactam
 
 - Terminated early (15/60 planned patients enrolled)
 - Enrollment extremely difficult
-- TOC results: 5/12 (41.7%) ATM-AVI cured vs. 0/3 BAT
+- TOC results: 5/12 (41.7%) ATM-AVI cured vs. 0/3 best available therapy
 :::
 
 :::: fragment
@@ -824,7 +823,7 @@ The ASSEMBLE trial's early termination due to enrollment difficulty actually hig
 :::
 :::::
 
-::: notes
+::: aside
 Cefepime-enmetazobactam fills a niche for ESBL-producing organisms - it's not designed for carbapenemase-producers. Think of it as enhanced anti-ESBL coverage rather than anti-CRE therapy.
 :::
 
