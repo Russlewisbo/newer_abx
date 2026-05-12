@@ -22,7 +22,7 @@ bibliography: new-abx-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Antibiotics in Advanced Development <br> & Key Initiatives for Antibiotic Development {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.3"}
+## Antibiotics in Advanced Development <br> & Key Initiatives for Antibiotic Development {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#000000" background-opacity="0.3"}
 
 <br>
 
@@ -42,9 +42,9 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 # Part 1: The AMR Crisis and Priority Pathogens {background-color="#b20e10"}
 
-## Antibiotic development vs. resistance
+## Antibiotic development vs. resistance {.smaller}
 
-![](images-new-abx/antibiotic_timeline_white.svg){fig-align="center"}
+![](images-new-abx/antibiotic_timeline_white.svg){fig-align="center" width="650"}
 
 ## The antimicrobial resistance crisis
 
@@ -87,18 +87,22 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 <br> **17 new systemic antibiotics** approved, including agents targeting CRE and MRSA
 :::
 
-- (Legge di Bilancio 2025), specifically Article 49, which allowed certain WHO AWaRe “Reserve” antibiotics targeting multidrug-resistant organisms to access the national Innovative Medicines Fund.
-- Created access to up to €100 million annually for qualifying reserve antibiotics
-- Linked reimbursement to therapeutic innovativeness and stewardship monitoring,
-- Attempted to delink company revenue from antibiotic sales volume, thereby encouraging development of new antimicrobials
+<br>
 
-::: notes
-The GAIN Act was a significant step forward, resulting in 17 new systemic antibiotics between 2010 and 2020. However, it didn't fully address all drug development challenges.
-:::
+- **Italy:** (Legge di Bilancio 2025), specifically Article 49 - allowed certain WHO AWaRe “Reserve” antibiotics targeting multidrug-resistant organisms to access the national Innovative Medicines Fund
+- Created access to up to €100 million annually for qualifying reserve antibiotics
+- Linked reimbursement to therapeutic innovativeness and stewardship monitoring
+- Attempted to delink company revenue from antibiotic sales volume, thereby encouraging development of new antimicrobials
 
 ## The Plazomicin case Study: A Cautionary Tale {.smaller}
 
-![](images-new-abx/nytimes.png){fig-align="center" width="350"}
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-3923330526.png){width="350"}
+:::
+
+::: {.column width="50%"}
+<br> <br>
 
 **Timeline:**
 
@@ -106,25 +110,20 @@ The GAIN Act was a significant step forward, resulting in 17 new systemic antibi
 - Drug reserved as "last resort" therapy (appropriate stewardship)
 - Low sales volume due to targeted use
 - **Company could not sustain itself financially**
-
-::: fragment
-**The lesson:** Push incentives support development but fail to ensure **post-approval sustainability**
+- **The lesson:** Push incentives support development but fail to ensure **post-approval sustainability**
+- **New focus:** Pull incentives (subscription models) that reward societal value rather than sales volume
 :::
+:::::
 
-::: fragment
-**New focus:** Pull incentives (subscription models) that reward societal value rather than sales volume
-:::
-
-::: notes
+::: aside
 This case perfectly illustrates the paradox of antibiotic development - we need these drugs to be available but want them used sparingly. Subscription-based payment models, like those being piloted in the UK and proposed in US legislation like PASTEUR Act, may help address this market failure.
 :::
 
-## WHO Priority Pathogens List (2024 Update) {.smaller}
+## WHO Priority Pathogens List (2024 Update) 
 
 <br>
 
-:::: columns
-::: {.column width="55%"}
+
 **Assessment criteria (MCDA framework):**
 
 1.  Mortality & non-fatal burden
@@ -138,39 +137,38 @@ This case perfectly illustrates the paradox of antibiotic development - we need 
 - *Salmonella* Typhi & *Shigella* spp. elevated to high priority
 - *P. aeruginosa* reclassified from critical → high
 - *H. pylori*, *Campylobacter* spp. removed
+
+
+::: aside
+The WHO updated this list in 2024 [@Sati2025], covering 24 pathogens across 15 families. The MCDA framework scored pathogens on 8 criteria, weighted by a survey of 79 international experts. The top-ranked bacterium was carbapenem-resistant K. pneumoniae (84%) and the bottom-ranked was penicillin-resistant group B streptococci (28%).
 :::
 
-::: {.column width="45%"}
-**Chapter Focus:**
-
-Novel agents targeting **critical and high priority** pathogens
-:::
-::::
-
-::: notes
-The WHO updated this list in 2024 (Sati et al., Lancet Infect Dis 2025), covering 24 pathogens across 15 families. The MCDA framework scored pathogens on 8 criteria, weighted by a survey of 79 international experts. The top-ranked bacterium was carbapenem-resistant K. pneumoniae (84%) and the bottom-ranked was penicillin-resistant group B streptococci (28%).
-:::
-
-## Critical priority pathogens {.smaller}
+## Critical priority pathogens 
 
 <br>
 
-| Pathogen | Resistance Pattern |
-|:---|:---|
-| *Acinetobacter baumannii* | Carbapenem-resistant (CRAB) |
-| Enterobacterales (*K. pneumoniae*, *E. coli*, others) | Carbapenem-resistant (CRE) |
++-------------------------------------------------------+-----------------------------------------------+
+| Pathogen                                              | Resistance Pattern                            |
++:======================================================+:==============================================+
+| *Acinetobacter baumannii*                             | Carbapenem-resistant (CRAB)                   |
++-------------------------------------------------------+-----------------------------------------------+
+| Enterobacterales (*K. pneumoniae*, *E. coli*, others) | Carbapenem-resistant (CRE)                    |
++-------------------------------------------------------+-----------------------------------------------+
 | Enterobacterales (*K. pneumoniae*, *E. coli*, others) | 3rd-generation cephalosporin-resistant (ESBL) |
-| *Mycobacterium tuberculosis* | Rifampicin-resistant |
++-------------------------------------------------------+-----------------------------------------------+
+| *Mycobacterium tuberculosis*                          | Rifampicin-resistant                          |
++-------------------------------------------------------+-----------------------------------------------+
+<br>
 
 ::: fragment
 **Novel agents covered in this chapter:** Sulbactam-durlobactam (CRAB), multiple BL/BLI combinations & oral carbapenems (CRE/ESBL)
 :::
 
-::: notes
+::: aside
 These pathogen groups represent the most urgent need for new antibiotics. Carbapenem-resistant K. pneumoniae scored highest overall at 84%. The 2024 list separates 3rd-gen cephalosporin-resistant Enterobacterales from carbapenem-resistant Enterobacterales to highlight their distinct challenges. Rifampicin-resistant M. tuberculosis was added after an independent parallel analysis.
 :::
 
-## High priority pathogens {.smaller}
+## High priority pathogens 
 
 <br>
 
@@ -184,30 +182,34 @@ These pathogen groups represent the most urgent need for new antibiotics. Carbap
 | *Neisseria gonorrhoeae* | 3rd-gen cephalosporin- and/or FQ-resistant |
 | *Staphylococcus aureus* | Methicillin-resistant (MRSA) |
 
+<br> <br>
+
 ::: fragment
 **Novel agents covered:** Ceftobiprole (MRSA), Gepotidacin & Zoliflodacin (*N. gonorrhoeae*)
 :::
 
-## Medium priority pathogens {.smaller}
+## Medium priority pathogens 
 
 <br>
 
-| Pathogen | Resistance Pattern |
-|:---|:---|
-| Group A streptococci | Macrolide-resistant |
-| *Streptococcus pneumoniae* | Macrolide-resistant |
-| *Haemophilus influenzae* | Ampicillin-resistant |
-| Group B streptococci | Penicillin-resistant |
+| Pathogen                   | Resistance Pattern   |
+|:---------------------------|:---------------------|
+| Group A streptococci       | Macrolide-resistant  |
+| *Streptococcus pneumoniae* | Macrolide-resistant  |
+| *Haemophilus influenzae*   | Ampicillin-resistant |
+| Group B streptococci       | Penicillin-resistant |
+
+<br> <br>
 
 ::: fragment
 These pathogens have a disproportionate impact on infants, young adults, and older adults, especially in resource-limited settings.
 :::
 
-::: notes
+::: aside
 Community-acquired pathogens such as Salmonella Typhi and Shigella were elevated to high priority due to large disease burden and increasing resistance, particularly in LMICs. Medium-priority pathogens reflect the importance of vaccine coverage and prevention strategies.
 :::
 
-## β-Lactamase classification: Ambler system {.smaller}
+## β-Lactamase classification: Ambler system 
 
 <br>
 
@@ -277,27 +279,58 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 
 <br>
 
-+----------------------------+--------------------------+-----------------------+-----------------------+
-|                            |                          |                       |                       |
-+============================+==========================+=======================+=======================+
-| **🔵 β-Lactam/BLI**\       | **🟡 Oral Carbapenems**\ | **🟣 Gram-Positive**\ | **🟢 Topoisomerase**\ |
-| - Sulbactam-Durlobactam\   | - Tebipenem\             | - Ceftobiprole\       | - Gepotidacin\        |
-| - Aztreonam-Avibactam\     | - Sulopenem              | - Contezolid\         | - Zoliflodacin        |
-| - Cefepime-Enmetazobactam\ |                          | - Afabicin            |                       |
-| - Cefepime-Taniborbactam\  |                          |                       |                       |
-| - Cefepime-Zidebactam      |                          |                       |                       |
-+----------------------------+--------------------------+-----------------------+-----------------------+
+:::: {.columns}
 
+::: {.column width="30%"}
+:::{style="background-color: #dbeafe; border-left: 4px solid #2563eb; border-radius: 6px; padding: 12px 14px;"}
+**🔵 β-Lactam/BLI**
 
+- Sulbactam-Durlobactam
+- Aztreonam-Avibactam
+- Cefepime-Enmetazobactam
+- Cefepime-Taniborbactam
+- Cefepime-Zidebactam
+:::
+:::
 
+::: {.column width="22%"}
+:::{style="background-color: #fef9c3; border-left: 4px solid #ca8a04; border-radius: 6px; padding: 12px 14px;"}
+**🟡 Oral Carbapenems**
+
+- Tebipenem
+- Sulopenem
+:::
+:::
+
+::: {.column width="22%"}
+:::{style="background-color: #f3e8ff; border-left: 4px solid #9333ea; border-radius: 6px; padding: 12px 14px;"}
+**🟣 Gram-Positive**
+
+- Ceftobiprole
+- Contezolid
+- Afabicin
+:::
+:::
+
+::: {.column width="22%"}
+:::{style="background-color: #dcfce7; border-left: 4px solid #16a34a; border-radius: 6px; padding: 12px 14px;"}
+**🟢 Topoisomerase**
+
+- Gepotidacin
+- Zoliflodacin
+:::
+:::
+
+::::
 
 # Part 2: β-Lactam/β-Lactamase Inhibitor Combinations {background-color="#b20e10"}
 
-## Sulbactam-Durlobactam (Xacduro™) {.smaller}
+## Sulbactam-Durlobactam (Xacduro™) 
 
 <br>
 
 **FDA Approved: May 2023** for HABP/VABP due to *A. baumannii-calcoaceticus* complex
+Not approved in Italy (yet) but can be requested by emergency authorization
 
 ::::: columns
 ::: {.column width="50%"}
@@ -321,47 +354,129 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 
 :::: fragment
 ::: callout-tip
+
 ## Why This Matters
 
 <br> OXA-type carbapenemases (OXA-23, OXA-24/40) are the **predominant resistance mechanism** in *A. baumannii* worldwide
 :::
 ::::
 
-::: notes
+::: aside
 Sulbactam-durlobactam is specifically designed for Acinetobacter infections. What makes durlobactam unique among DBO inhibitors is its potent activity against OXA-type carbapenemases, which are the main resistance mechanism in A. baumannii. This is something that avibactam and relebactam cannot do effectively.
 :::
 
-## SUL-DUR: Mechanism of Action
+## SUL-DUR: Mechanism of action 
 
 <br>
 
-```{mermaid}
-flowchart LR
-    subgraph Target ["A. baumannii Cell Wall"]
-        PBP1[PBP1a/1b]
-        PBP2[PBP2]
-        PBP3[PBP3]
-    end
-    subgraph Enzymes ["β-Lactamases"]
-        OXA[OXA-23/24/40]
-        ClassC[AmpC]
-        ClassA[TEM/SHV]
-    end
-    SUL[Sulbactam] --> PBP1
-    SUL --> PBP3
-    DUR[Durlobactam] --> OXA
-    DUR --> ClassC
-    DUR --> ClassA
-    DUR -.-> PBP2
+```{=html}
+<svg viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg" font-family="'Jost', Helvetica, Arial, sans-serif" style="max-width:860px; margin:0 auto; display:block;">
+  <defs>
+    <marker id="arrBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrTeal" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#14b8a6"/>
+    </marker>
+    <marker id="arrTealD" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#14b8a6" opacity="0.5"/>
+    </marker>
+  </defs>
 
-    style OXA fill:#ff6b6b
-    style DUR fill:#4ecdc4
+  <!-- ===== LEFT: Drug boxes ===== -->
+  <rect x="30" y="50" width="155" height="52" rx="10" fill="#3b82f6"/>
+  <text x="108" y="82" text-anchor="middle" fill="#fff" font-weight="600" font-size="17">Sulbactam</text>
+
+  <rect x="30" y="148" width="155" height="52" rx="10" fill="#14b8a6"/>
+  <text x="108" y="180" text-anchor="middle" fill="#fff" font-weight="600" font-size="17">Durlobactam</text>
+
+  <!-- ===== CENTRE: A. baumannii cell wall (PBPs) ===== -->
+  <rect x="275" y="15" width="230" height="230" rx="14" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="390" y="42" text-anchor="middle" fill="#1e40af" font-weight="700" font-size="13" font-style="italic">A. baumannii</text>
+  <text x="390" y="57" text-anchor="middle" fill="#1e40af" font-weight="600" font-size="12">Cell Wall Targets</text>
+
+  <rect x="300" y="72" width="180" height="36" rx="8" fill="#bfdbfe"/>
+  <text x="390" y="96" text-anchor="middle" fill="#1e3a8a" font-weight="500" font-size="14">PBP 1a / 1b</text>
+
+  <rect x="300" y="122" width="180" height="36" rx="8" fill="#bfdbfe"/>
+  <text x="390" y="146" text-anchor="middle" fill="#1e3a8a" font-weight="500" font-size="14">PBP 2</text>
+
+  <rect x="300" y="172" width="180" height="36" rx="8" fill="#bfdbfe"/>
+  <text x="390" y="196" text-anchor="middle" fill="#1e3a8a" font-weight="500" font-size="14">PBP 3</text>
+
+  <!-- ===== RIGHT: β-Lactamases ===== -->
+  <rect x="630" y="15" width="245" height="230" rx="14" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="753" y="42" text-anchor="middle" fill="#991b1b" font-weight="700" font-size="14">β-Lactamases</text>
+  <text x="753" y="57" text-anchor="middle" fill="#991b1b" font-weight="500" font-size="11">(resistance enzymes)</text>
+
+  <rect x="658" y="72" width="190" height="36" rx="8" fill="#fecaca"/>
+  <text x="753" y="96" text-anchor="middle" fill="#7f1d1d" font-weight="600" font-size="13">OXA-23 / 24 / 40</text>
+
+  <rect x="658" y="122" width="190" height="36" rx="8" fill="#fecaca"/>
+  <text x="753" y="146" text-anchor="middle" fill="#7f1d1d" font-weight="500" font-size="13">AmpC (Class C)</text>
+
+  <rect x="658" y="172" width="190" height="36" rx="8" fill="#fecaca"/>
+  <text x="753" y="196" text-anchor="middle" fill="#7f1d1d" font-weight="500" font-size="13">TEM / SHV (Class A)</text>
+
+  <!-- ===== ARROWS: Sulbactam → PBP1 & PBP3 ===== -->
+  <line x1="185" y1="66" x2="298" y2="86" stroke="#3b82f6" stroke-width="2.5" marker-end="url(#arrBlue)"/>
+  <line x1="185" y1="86" x2="298" y2="188" stroke="#3b82f6" stroke-width="2.5" marker-end="url(#arrBlue)"/>
+
+  <!-- ===== ARROW: Durlobactam dashed → PBP2 (secondary activity) ===== -->
+  <line x1="185" y1="168" x2="298" y2="140" stroke="#14b8a6" stroke-width="2" stroke-dasharray="7,4" opacity="0.5" marker-end="url(#arrTealD)"/>
+
+  <!-- ===== DURLOBACTAM → ALL β-LACTAMASES (routed below both boxes) ===== -->
+  <!-- Main trunk: right from drug box → down to y=280 → across below both boxes → up to trunk at x=618 -->
+  <path d="M185,180 L230,180 L230,280 L618,280 L618,90"
+        fill="none" stroke="#14b8a6" stroke-width="2.5"/>
+  <!-- Branch to OXA (top enzyme) -->
+  <line x1="618" y1="90" x2="656" y2="90" stroke="#14b8a6" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  <!-- Branch to AmpC (middle enzyme) -->
+  <line x1="618" y1="140" x2="656" y2="140" stroke="#14b8a6" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  <!-- Branch to TEM/SHV (bottom enzyme) -->
+  <line x1="618" y1="190" x2="656" y2="190" stroke="#14b8a6" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+
+  <!-- "inhibits" label on horizontal segment (with white knockout so line doesn't show through) -->
+  <rect x="370" y="269" width="80" height="22" rx="4" fill="#fff"/>
+  <rect x="370" y="269" width="80" height="22" rx="4" fill="#14b8a6" opacity="0.12"/>
+  <text x="410" y="285" text-anchor="middle" fill="#0f766e" font-weight="600" font-size="12">inhibits</text>
+
+  <!-- ===== Red X: hydrolysis blocked — centred between the two group boxes ===== -->
+  <!-- Midpoint between cell wall right (505) and β-lactamase left (630) = 567, vertically centred at y=130 -->
+  <!-- Red dashed arrows showing β-lactamases would normally attack cell wall -->
+  <line x1="628" y1="90" x2="520" y2="90" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.4"/>
+  <line x1="628" y1="140" x2="520" y2="140" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.4"/>
+  <line x1="628" y1="190" x2="520" y2="190" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.4"/>
+
+  <!-- Large X centred in the gap -->
+  <line x1="545" y1="80" x2="590" y2="200" stroke="#dc2626" stroke-width="3" opacity="0.55" stroke-linecap="round"/>
+  <line x1="590" y1="80" x2="545" y2="200" stroke="#dc2626" stroke-width="3" opacity="0.55" stroke-linecap="round"/>
+  <!-- Label below X -->
+  <text x="568" y="222" text-anchor="middle" fill="#dc2626" font-weight="600" font-size="11">hydrolysis</text>
+  <text x="568" y="234" text-anchor="middle" fill="#dc2626" font-weight="600" font-size="11">blocked</text>
+
+  <!-- ===== LEGEND ===== -->
+  <line x1="30" y1="325" x2="70" y2="325" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="78" y="330" fill="#333" font-size="12">Sulbactam → PBP binding (bactericidal)</text>
+
+  <line x1="340" y1="325" x2="380" y2="325" stroke="#14b8a6" stroke-width="2.5"/>
+  <text x="388" y="330" fill="#333" font-size="12">Durlobactam → β-lactamase inhibition (all classes)</text>
+
+  <line x1="30" y1="350" x2="70" y2="350" stroke="#14b8a6" stroke-width="2" stroke-dasharray="7,4" opacity="0.5"/>
+  <text x="78" y="355" fill="#333" font-size="12">Secondary PBP2 binding</text>
+
+  <line x1="340" y1="350" x2="380" y2="350" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.4"/>
+  <text x="388" y="355" fill="#333" font-size="12">Normal hydrolysis pathway (blocked by durlobactam)</text>
+
+  <!-- Result text -->
+  <text x="450" y="385" text-anchor="middle" fill="#444" font-weight="500" font-size="13">Durlobactam protects sulbactam from enzymatic destruction → restores bactericidal activity</text>
+</svg>
 ```
 
-**Result:** Durlobactam restores sulbactam activity by inhibiting resistance mechanisms
+**Result:** Durlobactam restores sulbactam activity by inhibiting the β-lactamases that would otherwise hydrolyze it
 
 ::: notes
-This diagram shows the dual mechanism of sulbactam-durlobactam. Sulbactam provides the antibacterial activity by binding to PBPs, while durlobactam prevents the destruction of sulbactam by inhibiting the β-lactamases that would otherwise hydrolyze it. Durlobactam also has some direct PBP2 binding activity.
+Sulbactam provides bactericidal activity by binding PBP1a/1b and PBP3. Durlobactam is a DBO inhibitor that blocks Class A, C, and D β-lactamases — critically including the OXA-type carbapenemases (OXA-23, OXA-24/40) that are the predominant resistance mechanism in A. baumannii worldwide. Durlobactam also has secondary direct PBP2 binding activity.
 :::
 
 ## SUL-DUR: In Vitro Activity
@@ -1305,14 +1420,21 @@ Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced D
 
 <br>
 
-| Agent        | Dose             | Frequency | Infusion | Renal Adjustment |
-|:-------------|:-----------------|:----------|:---------|:-----------------|
-| SUL-DUR      | 2 g (1g-1g)      | q6h       | 3 hours  | Yes              |
-| ATM-AVI      | 1500-500 mg\*    | q6h       | 3 hours  | Yes              |
-| FEP-ENM      | 2-0.5 g          | q8h       | 2 hours  | Yes              |
-| FEP-TAN      | 2.5 g (2g-500mg) | q8h       | 2 hours  | Yes              |
-| FEP-ZID      | 3 g (2g-1g)      | q8h       | 3 hours  | Yes              |
-| Ceftobiprole | 500 mg           | q6-8h     | 2 hours  | Yes              |
++--------------+------------------+------------+------------+------------------+
+| Agent        | Dose             | Frequency  | Infusion   | Renal Adjustment |
++:=============+:=================+:===========+:===========+:=================+
+| SUL-DUR      | 2 g (1g-1g)      | q6h        | 3 hours    | Yes              |
++--------------+------------------+------------+------------+------------------+
+| ATM-AVI      | 1500-500 mg\*    | q6h        | 3 hours    | Yes              |
++--------------+------------------+------------+------------+------------------+
+| FEP-ENM      | 2-0.5 g          | q8h        | 2 hours    | Yes              |
++--------------+------------------+------------+------------+------------------+
+| FEP-TAN      | 2.5 g (2g-500mg) | q8h        | 2 hours    | Yes              |
++--------------+------------------+------------+------------+------------------+
+| FEP-ZID      | 3 g (2g-1g)      | q8h        | 3 hours    | Yes              |
++--------------+------------------+------------+------------+------------------+
+| Ceftobiprole | 500 mg           | q6-8h      | 2 hours    | Yes              |
++--------------+------------------+------------+------------+------------------+
 
 *\*Loading dose: 500-167 mg*
 
