@@ -22,7 +22,7 @@ bibliography: new-abx-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Antibiotics in Advanced Development <br> & Key Initiatives for Antibiotic Development {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#000000" background-opacity="0.3"}
+## Antibiotics in Advanced Development  {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#000000" background-opacity="0.3"}
 
 <br>
 
@@ -94,7 +94,7 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 - Linked reimbursement to therapeutic innovativeness and stewardship monitoring
 - Attempted to delink company revenue from antibiotic sales volume, thereby encouraging development of new antimicrobials
 
-## The Plazomicin case Study: A Cautionary Tale {.smaller}
+## The Plazomicin case study: A cautionary tale 
 
 ::::: columns
 ::: {.column width="50%"}
@@ -137,6 +137,9 @@ This case perfectly illustrates the paradox of antibiotic development - we need 
 - *P. aeruginosa* reclassified from critical → high
 - *H. pylori*, *Campylobacter* spp. removed
 
+
+<br> <br>
+
 ::: aside
 The WHO updated this list in 2024 [@Sati2025], covering 24 pathogens across 15 families. The MCDA framework scored pathogens on 8 criteria, weighted by a survey of 79 international experts. The top-ranked bacterium was carbapenem-resistant K. pneumoniae (84%) and the bottom-ranked was penicillin-resistant group B streptococci (28%).
 :::
@@ -155,7 +158,7 @@ The WHO updated this list in 2024 [@Sati2025], covering 24 pathogens across 15 f
 <br>
 
 ::: fragment
-**Novel agents covered in this chapter:** Sulbactam-durlobactam (CRAB), multiple BL/BLI combinations & oral carbapenems (CRE/ESBL)
+**Novel agents covered in this lecture:** Sulbactam-durlobactam (CRAB), multiple BL/BLI combinations & oral carbapenems (CRE/ESBL)
 :::
 
 ::: aside
@@ -196,30 +199,30 @@ These pathogen groups represent the most urgent need for new antibiotics. Carbap
 <br> <br>
 
 ::: fragment
-These pathogens have a disproportionate impact on infants, young adults, and older adults, especially in resource-limited settings.
+These pathogens have a disproportionate impact on infants, young adults,<br> and older adults, especially in resource-limited settings.
 :::
 
 ::: aside
-Community-acquired pathogens such as Salmonella Typhi and Shigella were elevated to high priority due to large disease burden and increasing resistance, particularly in LMICs. Medium-priority pathogens reflect the importance of vaccine coverage and prevention strategies.
+Community-acquired pathogens such as Salmonella typhi and Shigella were elevated to high priority due to large disease burden and increasing resistance, particularly in LMICs. Medium-priority pathogens reflect the importance of vaccine coverage and prevention strategies.
 :::
 
 ## β-Lactamase classification: Ambler system
 
 <br>
 
-| Class | Type          | Examples             | Inhibited By                     |
+| Class | Type          | Examples             | Inhibited by                     |
 |:---------------|:---------------|:---------------|:------------------------|
-| **A** | Serine        | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam           |
-| **B** | Metallo (MBL) | NDM, VIM, IMP        | Aztreonam stability only         |
-| **C** | Serine (AmpC) | AmpC                 | Avibactam                        |
-| **D** | Serine (OXA)  | OXA-23, OXA-48       | Durlobactam, Avibactam (limited) |
+| **A** | Serine        | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam, Xeruborbactam |
+| **B** | Metallo (MBL) | NDM, VIM, IMP        | Aztreonam stability only; Xeruborbactam, Taniborbactam |
+| **C** | Serine (AmpC) | AmpC                 | Avibactam, Xeruborbactam         |
+| **D** | Serine (OXA)  | OXA-23, OXA-48       | Durlobactam, Avibactam (limited), Xeruborbactam |
 
 <br> <br>
 
 ::: callout-important
 ## Critical Point
 
-<br> **Class B MBLs** remain the greatest challenge - no approved inhibitor exists
+<br> **Class B MBLs** remain the greatest challenge - no approved inhibitor exists, but taniborbactam and xeruborbactam are in development
 :::
 
 ::: aside
@@ -247,6 +250,7 @@ Understanding β-lactamase classification is essential for selecting appropriate
 
 - Vaborbactam
 - **Taniborbactam** (MBL activity!)
+- **Xeruborbactam** (ultra-broad spectrum!)
 
 **Mechanism:** Reversible binding, broader spectrum including some MBLs
 :::
@@ -256,7 +260,7 @@ Understanding β-lactamase classification is essential for selecting appropriate
 ::: callout-tip
 ## Key Innovation
 
-<br> Taniborbactam is the first inhibitor with activity against **VIM and most NDM** metallo-β-lactamases
+<br> Taniborbactam and xeruborbactam are the first inhibitors with activity against **Class B metallo-β-lactamases** (NDM, VIM); xeruborbactam also inhibits IMP
 :::
 ::::
 
@@ -278,6 +282,7 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 - Cefepime-Enmetazobactam
 - Cefepime-Taniborbactam
 - Cefepime-Zidebactam
+- Meropenem-Xeruborbactam
 :::
 ::::
 
@@ -642,7 +647,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 :::
 :::::
 
-<br> <br>
+
 
 ::: fragment
 
@@ -696,6 +701,8 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 ```
 
 :::
+
+<br>
 
 ::: aside
 Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam is the only β-lactam naturally stable to metallo-β-lactamases due to its monobactam structure. However, MBL-producing strains usually also make serine β-lactamases that destroy aztreonam. Avibactam handles those serine enzymes, allowing aztreonam to work.
@@ -972,13 +979,14 @@ Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lacta
 | FEP-ENM | ✓       | ✗             | ✗       | ✗       | ESBL                 |
 | FEP-TAN | ✓       | **VIM, NDM**  | ✓       | ✓       | CRE, MBL             |
 | FEP-ZID | ✓       | Enhanced      | ✓       | ✓       | XDR-PA, CRE          |
+| MER-XER | ✓       | **NDM, VIM, IMP** | ✓   | ✓       | CRE, MBL, CRAB       |
 
 *\*Aztreonam stable to MBLs; avibactam covers serine enzymes*
 
 ::: callout-tip
 ## Selection Guide
 
-<br> - **CRAB** → Sulbactam-durlobactam - **MBL-Enterobacterales** → ATM-AVI or FEP-TAN (when available) - **ESBL** → Cefepime-enmetazobactam - **XDR Pseudomonas** → Cefepime-zidebactam (when available)
+<br> - **CRAB** → Sulbactam-durlobactam or MER-XER (when available) - **MBL-Enterobacterales** → ATM-AVI, FEP-TAN, or MER-XER (when available) - **ESBL** → Cefepime-enmetazobactam - **XDR Pseudomonas** → Cefepime-zidebactam (when available)
 :::
 
 ::: notes
@@ -1332,6 +1340,7 @@ Let me briefly mention some other agents in development. Each fills a specific n
 | **FEP-ENM** | ESBL | cUTI/AP | FDA approved |
 | **FEP-TAN** | CRE, MBL | cUTI/AP | Phase 3 complete |
 | **FEP-ZID** | XDR-PA, CRE | cUTI/AP | Phase 3 |
+| **MER-XER** | CRE, MBL, CRAB | cUTI/AP, HABP/VABP | Phase 3 |
 | **Sulopenem** | MDR Enterobacterales | uUTI | FDA approved |
 | **Ceftobiprole** | MRSA | Bacteremia, ABSSSI, CABP | FDA approved |
 | **Gepotidacin** | MDR *E. coli*, *N. gonorrhoeae* | uUTI, gonorrhea | Phase 3 complete |
@@ -1370,11 +1379,11 @@ These six takeaways summarize the key messages from this lecture. The field is a
 ```{mermaid}
 flowchart TB
     A[Suspected MDR Infection] --> B{Organism ID?}
-    B -->|A. baumannii| C[SUL-DUR]
+    B -->|A. baumannii| C[SUL-DUR or MER-XER]
     B -->|Enterobacterales| D{Resistance Mechanism?}
     D -->|ESBL| E[FEP-ENM]
-    D -->|KPC| F[Existing options or FEP-TAN]
-    D -->|MBL| G[ATM-AVI or FEP-TAN]
+    D -->|KPC| F[Existing options, FEP-TAN, or MER-XER]
+    D -->|MBL| G[ATM-AVI, FEP-TAN, or MER-XER]
     B -->|P. aeruginosa| H{MBL-producing?}
     H -->|Yes| I[FEP-ZID when available]
     H -->|No| J[Existing options]
@@ -1457,6 +1466,7 @@ Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced D
 | FEP-ENM      | 2-0.5 g          | q8h       | 2 hours  | Yes              |
 | FEP-TAN      | 2.5 g (2g-500mg) | q8h       | 2 hours  | Yes              |
 | FEP-ZID      | 3 g (2g-1g)      | q8h       | 3 hours  | Yes              |
+| MER-XER      | 2-1 g            | q8h       | 3 hours  | Yes              |
 | Ceftobiprole | 500 mg           | q6-8h     | 2 hours  | Yes              |
 
 *\*Loading dose: 500-167 mg*
@@ -1484,5 +1494,9 @@ flowchart TB
     subgraph Cefepime-Taniborbactam
         C1[Cefepime binds PBP]
         C2[Taniborbactam inhibits Class A,B,C,D]
+    end
+    subgraph Meropenem-Xeruborbactam
+        M1[Meropenem binds PBP]
+        M2[Xeruborbactam inhibits Class A,B,C,D]
     end
 ```
