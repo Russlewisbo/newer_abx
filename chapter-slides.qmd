@@ -22,7 +22,7 @@ bibliography: new-abx-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Antibiotics in Advanced Development  {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#000000" background-opacity="0.3"}
+## Antibiotics in Advanced Development {background-video="/images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#000000" background-opacity="0.3"}
 
 <br>
 
@@ -94,7 +94,7 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 - Linked reimbursement to therapeutic innovativeness and stewardship monitoring
 - Attempted to delink company revenue from antibiotic sales volume, thereby encouraging development of new antimicrobials
 
-## The Plazomicin case study: A cautionary tale 
+## The Plazomicin case study: A cautionary tale
 
 ::::: columns
 ::: {.column width="50%"}
@@ -136,7 +136,6 @@ This case perfectly illustrates the paradox of antibiotic development - we need 
 - *Salmonella* Typhi & *Shigella* spp. elevated to high priority
 - *P. aeruginosa* reclassified from critical → high
 - *H. pylori*, *Campylobacter* spp. removed
-
 
 <br> <br>
 
@@ -210,12 +209,12 @@ Community-acquired pathogens such as Salmonella typhi and Shigella were elevated
 
 <br>
 
-| Class | Type          | Examples             | Inhibited by                     |
-|:---------------|:---------------|:---------------|:------------------------|
-| **A** | Serine        | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam, Xeruborbactam |
-| **B** | Metallo (MBL) | NDM, VIM, IMP        | Aztreonam stability only; Xeruborbactam, Taniborbactam |
-| **C** | Serine (AmpC) | AmpC                 | Avibactam, Xeruborbactam         |
-| **D** | Serine (OXA)  | OXA-23, OXA-48       | Durlobactam, Avibactam (limited), Xeruborbactam |
+| Class | Type | Examples | Inhibited by |
+|:----------------|:----------------|:----------------|:----------------------|
+| **A** | Serine | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam, Xeruborbactam |
+| **B** | Metallo (MBL) | NDM, VIM, IMP | Aztreonam stability only; Xeruborbactam, Taniborbactam |
+| **C** | Serine (AmpC) | AmpC | Avibactam, Xeruborbactam |
+| **D** | Serine (OXA) | OXA-23, OXA-48 | Durlobactam, Avibactam (limited), Xeruborbactam |
 
 <br> <br>
 
@@ -315,7 +314,7 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 ::::
 :::::::::::
 
-# Part 2: β-Lactam/β-Lactamase Inhibitor Combinations {background-color="#b20e10"}
+# Part 2: β-Lactam/ <br>β-Lactamase Inhibitor Combinations {background-color="#b20e10"}
 
 ## Sulbactam-Durlobactam (Xacduro™)
 
@@ -550,11 +549,7 @@ The extended 3-hour infusion is important for optimizing time above MIC, which i
 :::
 
 ::: aside
-@Kaye2023
-:::
-
-::: notes
-The ATTACK trial was designed to compare SUL-DUR against the current standard of care for CRAB infections - colistin. Both arms received background imipenem-cilastatin. Part B provided a pathway for patients who couldn't receive colistin.
+The ATTACK trial was designed to compare SUL-DUR against the current standard of care for CRAB infections - colistin. Both arms received background imipenem-cilastatin. Part B provided a pathway for patients who couldn't receive colistin. [@Kaye2023]
 :::
 
 ## SUL-DUR: ATTACK Trial Results
@@ -579,11 +574,7 @@ The ATTACK trial was designed to compare SUL-DUR against the current standard of
 :::
 
 ::: aside
-@Kaye2023
-:::
-
-::: aside
-These results are remarkable. Not only did SUL-DUR meet its noninferiority endpoint, but there was a clinically meaningful numerical reduction in mortality - 13 percentage points. The safety advantage was even more striking, with nearly three-fold lower nephrotoxicity compared to colistin. This is a real advancement for treating CRAB infections.
+These results are remarkable. Not only did SUL-DUR meet its noninferiority endpoint, but there was a clinically meaningful numerical reduction in mortality - 13 percentage points. The safety advantage was even more striking, with nearly three-fold lower nephrotoxicity compared to colistin. This is a real advancement for treating CRAB infections.[@Kaye2023]
 :::
 
 ## SUL-DUR: Clinical summary
@@ -621,7 +612,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 <br> SUL-DUR represents a **paradigm shift** in CRAB treatment - from toxic colistin-based regimens to a more effective, safer β-lactam approach
 :::
 
-## Aztreonam-Avibactam: The MBL solution
+## Aztreonam-avibactam: The MBL solution
 
 <br>
 
@@ -647,10 +638,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 :::
 :::::
 
-
-
 ::: fragment
-
 ```{=html}
 <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:0.8em;font-size:0.82em;font-family:sans-serif;">
   <div style="background:#4a90d9;color:#fff;padding:10px 18px;border-radius:8px;font-weight:bold;">Aztreonam</div>
@@ -699,7 +687,6 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
   </div>
 </div>
 ```
-
 :::
 
 <br>
@@ -714,7 +701,7 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 
 **Enterobacterales Surveillance (2019-2021): 27,834 isolates**
 
-|  Population            | ATM-AVI Susceptibility |
+| Population             | ATM-AVI Susceptibility |
 |:-----------------------|:-----------------------|
 | All Enterobacterales   | **\>99.9%** at ≤8 mg/L |
 | CRE (n = 261)          | **99.6%**              |
@@ -733,9 +720,8 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 :::
 
 ::: aside
-@Sader2023
 
-The in vitro data show excellent coverage of Enterobacterales, including 100% activity against MBL-producers in this surveillance study. However, it's critical to note that this combination does not work well against Pseudomonas, likely because avibactam doesn't adequately address the resistance mechanisms in that organism.
+The in vitro data show excellent coverage of Enterobacterales, including 100% activity against MBL-producers in this surveillance study. However, it's critical to note that this combination does not work well against Pseudomonas, likely because avibactam doesn't adequately address the resistance mechanisms in that organism. @Sader2023
 :::
 
 ## ATM-AVI: Dosing strategy
@@ -761,16 +747,13 @@ The in vitro data show excellent coverage of Enterobacterales, including 100% ac
 - Achieves steady-state exposure rapidly
 - Critical for severe infections
 - Compensates for renal clearance of both agents
-
-::: aside
-@Cornely2020
-:::
+- 
 
 ::: notes
-The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.
+The loading dose strategy is important here because both aztreonam and avibactam have relatively short half-lives and are renally cleared. Getting to therapeutic levels quickly is crucial in patients with severe infections.@Cornely2020
 :::
 
-## ATM-AVI: Clinical Development Status 
+## ATM-AVI: Clinical development status
 
 <br>
 
@@ -805,16 +788,14 @@ The loading dose strategy is important here because both aztreonam and avibactam
 ::::
 
 ::: aside
-@Pfizer2023
-
-The ASSEMBLE trial's early termination due to enrollment difficulty actually highlights the rarity of MBL infections in some settings - which is both good news epidemiologically but makes studying treatments difficult. The REVISIT data support efficacy comparable to meropenem-based regimens.
+The ASSEMBLE trial's early termination due to enrollment difficulty actually highlights the rarity of MBL infections in some settings - which is both good news epidemiologically but makes studying treatments difficult. The REVISIT data support efficacy comparable to meropenem-based regimens. @Pfizer2023
 :::
 
-## Cefepime-Enmetazobactam (Exblifep®) 
+## Cefepime-enmetazobactam (Exblifep®)
 
 <br>
 
-**FDA Approved: February 2024** for cUTI including AP
+**FDA Approved: February 2024** for cUTI including acute pyelonephritis
 
 ::::: columns
 ::: {.column width="50%"}
@@ -834,12 +815,11 @@ The ASSEMBLE trial's early termination due to enrollment difficulty actually hig
 ::: {.column width="50%"}
 **Target Population:**
 
-```{mermaid}
-pie title Target Organisms
-    "ESBL-producers" : 70
-    "AmpC" : 20
-    "Other" : 10
-```
+| Target Organisms | Proportion |
+|:-----------------|:-----------|
+| ESBL-producers   | ~70%       |
+| AmpC             | ~20%       |
+| Other            | ~10%       |
 
 *Primarily ESBL-producing Enterobacterales*
 :::
@@ -849,7 +829,7 @@ pie title Target Organisms
 Cefepime-enmetazobactam fills a niche for ESBL-producing organisms - it's not designed for carbapenemase-producers. Think of it as enhanced anti-ESBL coverage rather than anti-CRE therapy.
 :::
 
-## FEP-ENM: ALLIUM Trial Results
+## FEP-ENM: ALLIUM trial results
 
 <br>
 
@@ -883,15 +863,15 @@ Cefepime-enmetazobactam fills a niche for ESBL-producing organisms - it's not de
 Not just noninferior - **statistically superior** to piperacillin-tazobactam
 :::
 
-::: notes
+::: aside
 The ALLIUM trial results are notable because FEP-ENM wasn't just noninferior - it was significantly superior to pip-tazo. This is particularly evident in ESBL-producing infections where pip-tazo is known to be unreliable.
 :::
 
-## Cefepime-Taniborbactam {.smaller}
+## Cefepime-taniborbactam {.smaller}
 
 <br>
 
-**In Development** for CRE and MBL-producing infections
+**In development** for CRE and MBL-producing infections
 
 ::::: columns
 ::: {.column width="50%"}
@@ -972,14 +952,14 @@ Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lacta
 
 <br>
 
-| Agent   | Class A | Class B (MBL) | Class C | Class D | Target Pathogens     |
-|:--------|:--------|:--------------|:--------|:--------|:---------------------|
-| SUL-DUR | ✓       | ✗             | ✓       | **✓✓**  | CRAB                 |
-| ATM-AVI | ✓       | Stable\*      | ✓       | ±       | MBL-Enterobacterales |
-| FEP-ENM | ✓       | ✗             | ✗       | ✗       | ESBL                 |
-| FEP-TAN | ✓       | **VIM, NDM**  | ✓       | ✓       | CRE, MBL             |
-| FEP-ZID | ✓       | Enhanced      | ✓       | ✓       | XDR-PA, CRE          |
-| MER-XER | ✓       | **NDM, VIM, IMP** | ✓   | ✓       | CRE, MBL, CRAB       |
+| Agent   | Class A | Class B (MBL)     | Class C | Class D | Target Pathogens     |
+|:--------|:--------|:------------------|:--------|:--------|:---------------------|
+| SUL-DUR | ✓       | ✗                 | ✓       | **✓✓**  | CRAB                 |
+| ATM-AVI | ✓       | Stable\*          | ✓       | ±       | MBL-Enterobacterales |
+| FEP-ENM | ✓       | ✗                 | ✗       | ✗       | ESBL                 |
+| FEP-TAN | ✓       | **VIM, NDM**      | ✓       | ✓       | CRE, MBL             |
+| FEP-ZID | ✓       | Enhanced          | ✓       | ✓       | XDR-PA, CRE          |
+| MER-XER | ✓       | **NDM, VIM, IMP** | ✓       | ✓       | CRE, MBL, CRAB       |
 
 *\*Aztreonam stable to MBLs; avibactam covers serine enzymes*
 
@@ -1334,7 +1314,7 @@ Let me briefly mention some other agents in development. Each fills a specific n
 <br>
 
 | Agent | Target | Key Indications | Status |
-|:---------------|:---------------------|:----------------|:---------------|
+|:----------------|:--------------------|:----------------|:----------------|
 | **SUL-DUR** | CRAB | HABP/VABP | FDA approved |
 | **ATM-AVI** | MBL-Enterobacterales | cIAI, HABP/VABP | Late development |
 | **FEP-ENM** | ESBL | cUTI/AP | FDA approved |
