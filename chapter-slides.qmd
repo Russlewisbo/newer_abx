@@ -40,7 +40,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.idpadova.com](https://padovaid.com/)
 
-# Part 1: The AMR Crisis and Priority Pathogens {background-color="#b20e10"}
+# Part 1: The AMR Crisis <br> and Priority Pathogens {background-color="#b20e10"}
 
 ## Antibiotic development vs. resistance {.smaller}
 
@@ -48,32 +48,32 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 ## The antimicrobial resistance crisis
 
+::::: columns
+::: {.column width="50%"}
 <br>
 
-:::: columns
-::: {.column width="50%"}
-**Current Impact:**
+**Current impact:**
 
 - **700,000** deaths annually attributed to AMR
 - MDR organisms have limited treatment options
 - Resistance detected after every new antibiotic introduction
 
-**Projected Impact:**
+**Projected impact:**
 
 - **10 million deaths/year** by 2050 if unchecked
 - Economic burden estimated at \$100 trillion
 :::
-::::
 
-::: aside
-The discovery of penicillin in 1928 marked the dawn of the antibiotic era. However, by 1942, penicillin resistance among Staphylococcus aureus was already reported. This pattern has repeated with every new antimicrobial agent introduced.
+::: {.column width="50%"}
+![](images-new-abx/bugs.png){fig-align="center" width="350"}
 :::
+:::::
 
-## Legislative Efforts: <br> The GAIN Act (2012) and Italian Progress
+## Legislative ffforts: <br> The GAIN Act (2012) in US and Italian Progress
 
 <br>
 
-**Generating Antibiotic Incentives Now Act** provided "push incentives":
+**Generating Antibiotic Incentives Now Act** (210-2020) provided "push incentives" →**17 new systemic antibiotics** approved, including agents targeting CRE and MRSA
 
 | Incentive              | Mechanism                            |
 |:-----------------------|:-------------------------------------|
@@ -81,15 +81,9 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 | Fast track designation | Accelerated development pathway      |
 | Priority review        | 6-month vs. 10-month FDA review      |
 
-::: callout-note
-## Results: 2010-2020
-
-<br> **17 new systemic antibiotics** approved, including agents targeting CRE and MRSA
-:::
-
 <br>
 
-- **Italy:** (Legge di Bilancio 2025), specifically Article 49 - allowed certain WHO AWaRe “Reserve” antibiotics targeting multidrug-resistant organisms to access the national Innovative Medicines Fund
+- **Italy: (Legge di Bilancio 2025) Article 49** - allowed certain WHO AWaRe “Reserve” antibiotics targeting multidrug-resistant organisms to access the national Innovative Medicines Fund
 - Created access to up to €100 million annually for qualifying reserve antibiotics
 - Linked reimbursement to therapeutic innovativeness and stewardship monitoring
 - Attempted to delink company revenue from antibiotic sales volume, thereby encouraging development of new antimicrobials
@@ -98,11 +92,11 @@ The discovery of penicillin in 1928 marked the dawn of the antibiotic era. Howev
 
 ::::: columns
 ::: {.column width="50%"}
-![](images/clipboard-3923330526.png){width="350"}
+![](images/clipboard-3923330526.png){fig-align="center" width="350"}
 :::
 
 ::: {.column width="50%"}
-<br> <br>
+<br>
 
 **Timeline:**
 
@@ -147,7 +141,7 @@ The WHO updated this list in 2024 [@Sati2025], covering 24 pathogens across 15 f
 
 <br>
 
-| Pathogen | Resistance Pattern |
+| Pathogen | Resistance pattern |
 |:--------------------------------------|:--------------------------------|
 | *Acinetobacter baumannii* | Carbapenem-resistant (CRAB) |
 | Enterobacterales (*K. pneumoniae*, *E. coli*, others) | Carbapenem-resistant (CRE) |
@@ -161,14 +155,14 @@ The WHO updated this list in 2024 [@Sati2025], covering 24 pathogens across 15 f
 :::
 
 ::: aside
-These pathogen groups represent the most urgent need for new antibiotics. Carbapenem-resistant K. pneumoniae scored highest overall at 84%. The 2024 list separates 3rd-gen cephalosporin-resistant Enterobacterales from carbapenem-resistant Enterobacterales to highlight their distinct challenges. Rifampicin-resistant M. tuberculosis was added after an independent parallel analysis.
+Carbapenem-resistant K. pneumoniae scored highest overall at 84%. The 2024 list separates 3rd-gen cephalosporin-resistant Enterobacterales from carbapenem-resistant Enterobacterales to highlight their distinct challenges. Rifampicin-resistant M. tuberculosis was added after an independent parallel analysis.
 :::
 
 ## High priority pathogens
 
 <br>
 
-| Pathogen | Resistance Pattern |
+| Pathogen | Resistance pattern |
 |:---|:---|
 | *Salmonella enterica* serotype Typhi | Fluoroquinolone-resistant |
 | *Shigella* spp. | Fluoroquinolone-resistant |
@@ -188,7 +182,7 @@ These pathogen groups represent the most urgent need for new antibiotics. Carbap
 
 <br>
 
-| Pathogen                   | Resistance Pattern   |
+| Pathogen                   | Resistance pattern   |
 |:---------------------------|:---------------------|
 | Group A streptococci       | Macrolide-resistant  |
 | *Streptococcus pneumoniae* | Macrolide-resistant  |
@@ -210,7 +204,7 @@ Community-acquired pathogens such as Salmonella typhi and Shigella were elevated
 <br>
 
 | Class | Type | Examples | Inhibited by |
-|:----------------|:----------------|:----------------|:--------------------|
+|:----------------|:----------------|:----------------|:-------------------|
 | **A** | Serine | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam, Xeruborbactam |
 | **B** | Metallo (MBL) | NDM, VIM, IMP | Aztreonam stability only; Xeruborbactam, Taniborbactam |
 | **C** | Serine (AmpC) | AmpC | Avibactam, Xeruborbactam |
@@ -225,7 +219,7 @@ Community-acquired pathogens such as Salmonella typhi and Shigella were elevated
 :::
 
 ::: aside
-Understanding β-lactamase classification is essential for selecting appropriate BL/BLI combinations. The Ambler classification divides these enzymes into 4 classes. Class B metallo-β-lactamases are particularly problematic because they require zinc for activity and current inhibitors don't work against them - with one important exception we'll discuss.
+The Ambler classification divides these enzymes into 4 classes. Class B metallo-β-lactamases are particularly problematic because they require zinc for activity and current inhibitors don't work against them - with one important exception!
 :::
 
 ## Novel β-Lactamase inhibitor classes
@@ -251,6 +245,8 @@ Understanding β-lactamase classification is essential for selecting appropriate
 - **Taniborbactam** (MBL activity!)
 - **Xeruborbactam** (ultra-broad spectrum!)
 
+<br>
+
 **Mechanism:** Reversible binding, broader spectrum including some MBLs
 :::
 :::::
@@ -263,11 +259,7 @@ Understanding β-lactamase classification is essential for selecting appropriate
 :::
 ::::
 
-::: aside
-The development of new β-lactamase inhibitor classes has been crucial for addressing carbapenemase-producing organisms. The DBOs and boronates represent significant advances over older inhibitors like clavulanate and tazobactam.
-:::
-
-## Chapter roadmap: Agents we'll cover
+## Lecture roadmap: Agents we'll cover
 
 <br>
 
@@ -324,6 +316,8 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 
 ::::: columns
 ::: {.column width="50%"}
+<br>
+
 **Sulbactam:**
 
 - Historically a β-lactamase inhibitor
@@ -333,6 +327,8 @@ The development of new β-lactamase inhibitor classes has been crucial for addre
 :::
 
 ::: {.column width="50%"}
+<br>
+
 **Durlobactam:**
 
 - Novel DBO inhibitor
@@ -526,12 +522,12 @@ The extended 3-hour infusion is important for optimizing time above MIC, which i
 
 <br>
 
-**Phase 3, Two-Part Registrational Trial**
+**Phase 3, Two-part registrational trial**
 
 ::: panel-tabset
 ### Part A
 
-**Randomized, Controlled Comparison**
+**Randomized, controlled comparison**
 
 - **Population:** HABP, VABP, BSI due to CRAB
 - **Intervention:** SUL-DUR 2g (1g-1g) q6h over 3h
@@ -541,7 +537,7 @@ The extended 3-hour infusion is important for optimizing time above MIC, which i
 
 ### Part B
 
-**Supportive Open-Label Study**
+**Supportive open-label study**
 
 - Patients with colistin-resistant *A. baumannii*
 - Or polymyxin-intolerant patients
@@ -549,10 +545,10 @@ The extended 3-hour infusion is important for optimizing time above MIC, which i
 :::
 
 ::: aside
-The ATTACK trial was designed to compare SUL-DUR against the current standard of care for CRAB infections - colistin. Both arms received background imipenem-cilastatin. Part B provided a pathway for patients who couldn't receive colistin. [@Kaye2023]
+The ATTACK trial was designed to compare SUL-DUR against the current standard of care for CRAB infections - colistin. Both arms received background imipenem-cilastatin. Part B provided a pathway for patients who couldn't receive colistin [@Kaye2023].
 :::
 
-## SUL-DUR: ATTACK Trial Results
+## SUL-DUR: ATTACK trial results
 
 <br>
 
@@ -583,7 +579,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 
 ::::: columns
 ::: {.column width="60%"}
-**Key Points:**
+**Key points:**
 
 ✓ First agent specifically developed for CRAB
 
@@ -606,6 +602,8 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 :::
 :::::
 
+<br> <br>
+
 ::: callout-tip
 ## Clinical Pearl
 
@@ -616,13 +614,13 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 
 <br>
 
-**Under Development** for MDR gram-negative infections including **MBL-producers**
+**Under development** for MDR gram-negative infections including **MBL-producers**
 
 <br>
 
 ::::: columns
 ::: {.column width="50%"}
-**The Problem:**
+**The problem:**
 
 - MBLs (NDM, VIM, IMP) hydrolyze all β-lactams
 - No approved MBL inhibitor exists
@@ -630,7 +628,7 @@ These results are remarkable. Not only did SUL-DUR meet its noninferiority endpo
 :::
 
 ::: {.column width="50%"}
-**The Solution:**
+**The solution:**
 
 - Aztreonam is **intrinsically stable** to MBLs
 - Avibactam inhibits co-produced serine enzymes
@@ -699,7 +697,9 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 
 <br>
 
-**Enterobacterales Surveillance (2019-2021): 27,834 isolates**
+**Enterobacterales surveillance (2019-2021): 27,834 isolates**
+
+<br>
 
 | Population             | ATM-AVI Susceptibility |
 |:-----------------------|:-----------------------|
@@ -712,7 +712,7 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 ::: callout-warning
 ## Important limitation
 
-<br> ATM-AVI has **limited activity against *P. aeruginosa*** including MBL-producing strains
+<br> ATM-AVI has **limited activity against *P. aeruginosa*** including MBL-producing strains → it has limited ability to penetrate the outer membrane and is readily effluxed
 :::
 
 ::: fragment
@@ -720,14 +720,14 @@ Aztreonam-avibactam represents an elegant solution to the MBL problem. Aztreonam
 :::
 
 ::: aside
-The in vitro data show excellent coverage of Enterobacterales, including 100% activity against MBL-producers in this surveillance study. However, it's critical to note that this combination does not work well against Pseudomonas, likely because avibactam doesn't adequately address the resistance mechanisms in that organism. @Sader2023
+The in vitro data show excellent coverage of Enterobacterales, including 100% activity against MBL-producers in this surveillance study. However, it's critical to note that this combination does not work well against Pseudomonas @Sader2023.
 :::
 
 ## ATM-AVI: Dosing strategy
 
 <br>
 
-**Based on Phase 1 PK-PD Modeling:**
+**Based on Phase 1 PK-PD modeling:**
 
 ::: callout-tip
 ## Recommended Regimen
@@ -779,9 +779,9 @@ The loading dose strategy is important here because both aztreonam and avibactam
 
 :::: fragment
 ::: callout-note
-## Current Status
+## Current status
 
-<br> FDA filing anticipated - approval would provide first treatment option for MBL-producing Enterobacterales
+<br> FDA approval in February 2025. Avialble in Italy but drug shortages in 2026 have limited supply.
 :::
 ::::
 
@@ -793,7 +793,7 @@ The ASSEMBLE trial's early termination due to enrollment difficulty actually hig
 
 <br>
 
-**FDA Approved: February 2024** for cUTI including acute pyelonephritis
+**FDA approved: February 2024** for cUTI including acute pyelonephritis
 
 ::::: columns
 ::: {.column width="50%"}
@@ -811,9 +811,9 @@ The ASSEMBLE trial's early termination due to enrollment difficulty actually hig
 :::
 
 ::: {.column width="50%"}
-**Target Population:**
+**Target population:**
 
-| Target Organisms | Proportion |
+| Target organisms | Proportion |
 |:-----------------|:-----------|
 | ESBL-producers   | \~70%      |
 | AmpC             | \~20%      |
@@ -862,10 +862,10 @@ Not just noninferior - **statistically superior** to piperacillin-tazobactam
 :::
 
 ::: aside
-The ALLIUM trial results are notable because FEP-ENM wasn't just noninferior - it was significantly superior to pip-tazo. This is particularly evident in ESBL-producing infections where pip-tazo is known to be unreliable.
+The ALLIUM trial results are notable because FEP-ENM wasn't just noninferior - it was significantly superior to pip-tazo. This is particularly evident in ESBL-producing infections where pip-tazo is known to be unreliable. [@Wunderink2024]
 :::
 
-## Cefepime-taniborbactam {.smaller}
+## Cefepime-taniborbactam
 
 <br>
 
@@ -899,12 +899,12 @@ Phase 3 in cUTI/AP showed **superiority to meropenem**
 :::::
 
 ::: callout-tip
-## Why This Matters
+## Why this matters
 
 <br> If approved, FEP-TAN would be the **first single agent** effective against both serine carbapenemases AND most MBLs
 :::
 
-::: notes
+::: aside
 Cefepime-taniborbactam could be a game-changer because taniborbactam has activity against VIM and most NDM metallo-β-lactamases - something no other approved inhibitor can claim. This means you wouldn't need to use the aztreonam-avibactam combination approach for most MBL-producers.
 :::
 
@@ -942,11 +942,11 @@ Cefepime-taniborbactam could be a game-changer because taniborbactam has activit
 <br> Successful outcomes reported for NDM-producing *P. aeruginosa* infection
 :::
 
-::: notes
+::: aside
 Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lactam enhancer that actually contributes to bacterial killing through PBP2 binding. This synergistic approach is particularly valuable against Pseudomonas.
 :::
 
-## BL/BLI Combinations: Comparative Summary {.smaller}
+## BL/BLI Combinations: Comparative Summary
 
 <br>
 
@@ -967,28 +967,32 @@ Zidebactam is unique because it's not just an enzyme inhibitor - it's a β-lacta
 <br> - **CRAB** → Sulbactam-durlobactam or MER-XER (when available) - **MBL-Enterobacterales** → ATM-AVI, FEP-TAN, or MER-XER (when available) - **ESBL** → Cefepime-enmetazobactam - **XDR Pseudomonas** → Cefepime-zidebactam (when available)
 :::
 
-::: notes
+::: aside
 This summary table helps guide agent selection based on the resistance mechanism you're dealing with. Note how each agent has a slightly different niche - there's no single "best" agent; it depends on the pathogen and resistance mechanism.
 :::
 
-# Part 3: Oral Carbapenems and Other Novel Agents {background-color="#b20e10"}
+# Part 3: Oral Carbapenems and <br> Other Novel Agents {background-color="#b20e10"}
 
-## Oral Carbapenems: Addressing the IV-to-PO Gap
+## Oral carbapenems: Addressing the IV-to-PO gap
 
 <br>
 
-**The Clinical Need:**
+**The clinical Need:**
 
 - Patients stable on IV carbapenems
 - Need oral step-down therapy
 - Current options limited for MDR gram-negatives
 
-**Two Agents in Development:**
+<br>
 
-| Agent     | Status           | Primary Indication |
-|:----------|:-----------------|:-------------------|
-| Tebipenem | Phase 3 ongoing  | cUTI/AP            |
-| Sulopenem | **FDA Approved** | uUTI               |
+**Two agents in development:**
+
+<br>
+
+| Agent     | Status                  | Primary Indication |
+|:----------|:------------------------|:-------------------|
+| Tebipenem | Likely approval in 2026 | cUTI/AP            |
+| Sulopenem | **FDA Approved**        | uUTI               |
 
 ::: notes
 Oral carbapenems could transform how we manage ESBL and AmpC infections by enabling earlier transition from IV therapy, potentially reducing hospital stays and costs.
@@ -1026,15 +1030,15 @@ Oral carbapenems could transform how we manage ESBL and AmpC infections by enabl
 <br> Initial NDA insufficient for FDA approval - **PIVOT-PO** trial (vs. IV imipenem) ongoing
 :::
 
-::: notes
-Tebipenem showed good results in the ADAPT-PO trial but the FDA wanted additional data. The PIVOT-PO trial is now comparing it to IV imipenem-cilastatin to provide more robust evidence.
+::: aside
+Tebipenem showed good results in the ADAPT-PO trial but the FDA wanted additional data. The PIVOT-PO trial is now comparing it to IV imipenem-cilastatin to provide more robust evidence. [@Eckburg2022]
 :::
 
-## Sulopenem (Orlynvah) {.smaller}
+## Sulopenem (Orlynvah)
 
 <br>
 
-**FDA Approved** for uncomplicated UTI
+**FDA approved** for uncomplicated UTI → Currently no EMA authorization
 
 ::::: columns
 ::: {.column width="50%"}
@@ -1061,11 +1065,11 @@ Tebipenem showed good results in the ADAPT-PO trial but the FDA wanted additiona
 <br> Sulopenem offers an **oral option** for patients with MDR gram-negative uUTI who have limited other oral alternatives
 :::
 
-::: notes
-Sulopenem fills an important niche for uncomplicated UTI caused by MDR organisms where few oral options exist. It's not for complicated infections or carbapenemase-producers.
+::: aside
+Sulopenem fills an important niche for uncomplicated UTI caused by MDR organisms where few oral options exist. It's not for complicated infections or carbapenemase-producers. [@Puttagunta2025]
 :::
 
-## Ceftobiprole (Zevtera): Fifth-Generation Cephalosporin
+## Ceftobiprole (Zevtera): Fifth-generation cephalosporin
 
 <br>
 
@@ -1100,11 +1104,11 @@ Noninferior to daptomycin for complicated *S. aureus* bacteremia
 :::
 :::::
 
-::: notes
-Ceftobiprole is the first β-lactam approved for MRSA bacteremia in the US. Its ability to bind PBP2a allows it to overcome the main mechanism of methicillin resistance. This gives us a β-lactam option alongside vancomycin and daptomycin.
+::: aside
+Ceftobiprole is the first β-lactam approved for MRSA bacteremia in the US. Its ability to bind PBP2a allows it to overcome the main mechanism of methicillin resistance. This gives us a β-lactam option alongside vancomycin and daptomycin. [@Holland2023]
 :::
 
-## Contezolid: Safer Oxazolidinone?
+## Contezolid: Safer oxazolidinone?
 
 <br>
 
@@ -1135,11 +1139,11 @@ Noninferior to linezolid with potentially better safety
 :::
 :::::
 
-::: notes
+::: aside
 Oxazolidinones are valuable for resistant gram-positives, but myelosuppression limits longer-term use. Contezolid aims to provide the same efficacy with an improved safety profile.
 :::
 
-## Afabicin: Selective Anti-Staphylococcal Agent
+## Afabicin: Selective anti-staphylococcal agent
 
 <br>
 
@@ -1171,11 +1175,11 @@ Narrow spectrum = antimicrobial stewardship friendly
 :::
 :::::
 
-::: notes
+::: aside
 Afabicin's extremely narrow spectrum is actually a feature, not a bug, from a stewardship perspective. When you know it's a staph infection, using a highly targeted agent minimizes collateral damage to the microbiome.
 :::
 
-## Gepotidacin: Novel Topoisomerase Inhibitor {.smaller}
+## Gepotidacin: Novel topoisomerase inhibitor
 
 <br>
 
@@ -1215,11 +1219,11 @@ Afabicin's extremely narrow spectrum is actually a feature, not a bug, from a st
 <br> Gepotidacin provides an **oral option** for gonorrhea - crucial as resistance to ceftriaxone emerges
 :::
 
-::: notes
-Gepotidacin is particularly important for gonorrhea treatment. With increasing ceftriaxone resistance, we need alternatives. Having an oral option that works against resistant strains could transform gonorrhea management.
+::: aside
+Having an oral option that works against resistant strains could transform gonorrhea management.
 :::
 
-## Zoliflodacin: Single-Dose Gonorrhea Treatment
+## Zoliflodacin: Single-dose gonorrhea treatment
 
 <br>
 
@@ -1263,7 +1267,7 @@ Active against strains resistant to:
 Single-dose therapy is crucial for STI treatment where follow-up is often difficult. Having an oral agent that works against MDR gonorrhea in a single dose could significantly improve public health outcomes.
 :::
 
-## Other Agents: Brief Overview {.smaller}
+## Other Agents: Brief overview
 
 <br>
 
@@ -1301,18 +1305,22 @@ Single-dose therapy is crucial for STI treatment where follow-up is often diffic
 - No current US development
 :::
 
+::: aside
+[@Kaye2019]
+:::
+
 ::: notes
 Let me briefly mention some other agents in development. Each fills a specific niche - NTM infections, C. diff, etc. The fosfomycin story is unfortunate, as the IV form showed promise but development was abandoned after the company's bankruptcy.
 :::
 
 # Part 4: Summary and Conclusions {background-color="#b20e10"}
 
-## Novel Agents Summary Table {.smaller}
+## Novel agents summary table
 
 <br>
 
 | Agent | Target | Key Indications | Status |
-|:----------------|:-------------------|:----------------|:----------------|
+|:-----------------|:-------------------|:-----------------|:-----------------|
 | **SUL-DUR** | CRAB | HABP/VABP | FDA approved |
 | **ATM-AVI** | MBL-Enterobacterales | cIAI, HABP/VABP | Late development |
 | **FEP-ENM** | ESBL | cUTI/AP | FDA approved |
@@ -1328,7 +1336,7 @@ Let me briefly mention some other agents in development. Each fills a specific n
 This summary table provides a quick reference for agent selection based on target pathogen and indication. Note that several agents are already FDA approved while others are in late-stage development.
 :::
 
-## Key Takeaways {.smaller}
+## Key takeaways {.smaller}
 
 <br>
 
@@ -1350,23 +1358,207 @@ This summary table provides a quick reference for agent selection based on targe
 These six takeaways summarize the key messages from this lecture. The field is advancing, but we must balance access with stewardship to preserve these new agents for as long as possible.
 :::
 
-## Clinical Decision Framework
+## Clinical decision framework
 
 <br>
 
-```{mermaid}
-flowchart TB
-    A[Suspected MDR Infection] --> B{Organism ID?}
-    B -->|A. baumannii| C[SUL-DUR or MER-XER]
-    B -->|Enterobacterales| D{Resistance Mechanism?}
-    D -->|ESBL| E[FEP-ENM]
-    D -->|KPC| F[Existing options, FEP-TAN, or MER-XER]
-    D -->|MBL| G[ATM-AVI, FEP-TAN, or MER-XER]
-    B -->|P. aeruginosa| H{MBL-producing?}
-    H -->|Yes| I[FEP-ZID when available]
-    H -->|No| J[Existing options]
-    B -->|MRSA| K[Ceftobiprole or existing options]
-    B -->|N. gonorrhoeae| L[Gepotidacin/Zoliflodacin when available]
+```{=html}
+<style>
+.jama-algo {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.58em;
+  color: #1a1a1a;
+  text-align: center;
+  line-height: 1.3;
+}
+.jama-algo .algo-title {
+  font-weight: 700;
+  font-size: 1.1em;
+  background: #2c2c2c;
+  color: #fff;
+  padding: 8px 20px;
+  display: inline-block;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.jama-algo .vline {
+  width: 2px; background: #1a1a1a; height: 18px; margin: 0 auto;
+}
+.jama-algo .decision {
+  display: inline-block;
+  border: 2px solid #1a1a1a;
+  padding: 6px 16px;
+  font-weight: 700;
+  background: #f0f0f0;
+  transform: rotate(0deg);
+  font-style: italic;
+}
+.jama-algo .branch-row {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-top: 0;
+  position: relative;
+}
+.jama-algo .branch-row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 2px;
+  background: #1a1a1a;
+}
+.jama-algo .branch {
+  flex: 1;
+  max-width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jama-algo .branch-label {
+  font-weight: 700;
+  font-size: 0.85em;
+  padding: 2px 6px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 2px;
+  color: #b20e10;
+}
+.jama-algo .action-box {
+  border: 1.5px solid #1a1a1a;
+  padding: 5px 8px;
+  background: #ffffff;
+  font-size: 0.92em;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.jama-algo .sub-decision {
+  border: 1.5px solid #1a1a1a;
+  padding: 4px 10px;
+  background: #f0f0f0;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 2px;
+  font-size: 0.9em;
+}
+.jama-algo .sub-row {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 2px;
+  position: relative;
+}
+.jama-algo .sub-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.jama-algo .sub-label {
+  font-weight: 700;
+  font-size: 0.8em;
+  color: #b20e10;
+  margin-bottom: 1px;
+}
+.jama-algo .sub-box {
+  border: 1.5px solid #1a1a1a;
+  padding: 4px 6px;
+  background: #fff;
+  font-size: 0.85em;
+  text-align: center;
+}
+.jama-algo .vline-sm {
+  width: 2px; background: #1a1a1a; height: 10px; margin: 0 auto;
+}
+.jama-algo .fig-label {
+  font-size: 0.85em;
+  margin-top: 10px;
+  text-align: left;
+  font-style: italic;
+  color: #555;
+}
+</style>
+
+<div class="jama-algo">
+
+<div class="algo-title">Suspected MDR Gram-Negative or Gram-Positive Infection</div>
+<div class="vline"></div>
+<div class="decision">Organism Identification?</div>
+<div class="vline"></div>
+
+<div class="branch-row">
+
+  <div class="branch">
+    <div class="vline-sm"></div>
+    <div class="branch-label"><em>A. baumannii</em></div>
+    <div class="vline-sm"></div>
+    <div class="action-box">SUL-DUR<br>or MER-XER</div>
+  </div>
+
+  <div class="branch">
+    <div class="vline-sm"></div>
+    <div class="branch-label">Enterobacterales</div>
+    <div class="vline-sm"></div>
+    <div class="sub-decision">Resistance mechanism?</div>
+    <div class="sub-row">
+      <div class="sub-branch">
+        <div class="vline-sm"></div>
+        <div class="sub-label">ESBL</div>
+        <div class="sub-box">FEP-ENM</div>
+      </div>
+      <div class="sub-branch">
+        <div class="vline-sm"></div>
+        <div class="sub-label">KPC</div>
+        <div class="sub-box">Existing options,<br>FEP-TAN, or MER-XER</div>
+      </div>
+      <div class="sub-branch">
+        <div class="vline-sm"></div>
+        <div class="sub-label">MBL</div>
+        <div class="sub-box">ATM-AVI,<br>FEP-TAN, or MER-XER</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="branch">
+    <div class="vline-sm"></div>
+    <div class="branch-label"><em>P. aeruginosa</em></div>
+    <div class="vline-sm"></div>
+    <div class="sub-decision">MBL-producing?</div>
+    <div class="sub-row">
+      <div class="sub-branch">
+        <div class="vline-sm"></div>
+        <div class="sub-label">Yes</div>
+        <div class="sub-box">FEP-ZID<br>(when available)</div>
+      </div>
+      <div class="sub-branch">
+        <div class="vline-sm"></div>
+        <div class="sub-label">No</div>
+        <div class="sub-box">Existing<br>options</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="branch">
+    <div class="vline-sm"></div>
+    <div class="branch-label">MRSA</div>
+    <div class="vline-sm"></div>
+    <div class="action-box">Ceftobiprole<br>or existing options</div>
+  </div>
+
+  <div class="branch">
+    <div class="vline-sm"></div>
+    <div class="branch-label"><em>N. gonorrhoeae</em></div>
+    <div class="vline-sm"></div>
+    <div class="action-box">Gepotidacin /<br>Zoliflodacin<br>(when available)</div>
+  </div>
+
+</div>
+
+</div>
 ```
 
 ::: notes
@@ -1399,37 +1591,9 @@ This framework helps guide empiric and directed therapy decisions based on the p
 As we conclude, remember that new antibiotics alone won't solve the AMR crisis. We need a comprehensive approach that includes rapid diagnostics, infection prevention, and judicious use of all antimicrobials.
 :::
 
-## Questions?
-
-<br>
-
-::::: columns
-::: {.column width="50%"}
-**Key Resources:**
-
-- WHO Priority Pathogens List
-- FDA prescribing information
-- IDSA/SIDP guidelines
-- Local antibiogram
-:::
-
-::: {.column width="50%"}
-**Contact Information:**
-
-\[Insert presenter contact\]
-
-**Acknowledgments:**
-
-Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced Development and Other Agents.* Chapter 35.
-:::
-:::::
-
 ## References {.smaller}
 
 <br>
-
-::: {#refs}
-:::
 
 ------------------------------------------------------------------------
 
@@ -1459,22 +1623,129 @@ Chapter adapted from Molina KC, Miller MA, Barber GR. *Antibiotics in Advanced D
 
 <br>
 
-```{mermaid}
-flowchart TB
-    subgraph Sulbactam-Durlobactam
-        S1[Sulbactam binds PBP1/3]
-        S2[Durlobactam inhibits OXA]
-    end
-    subgraph Aztreonam-Avibactam
-        A1[Aztreonam stable to MBL]
-        A2[Avibactam inhibits serine BL]
-    end
-    subgraph Cefepime-Taniborbactam
-        C1[Cefepime binds PBP]
-        C2[Taniborbactam inhibits Class A,B,C,D]
-    end
-    subgraph Meropenem-Xeruborbactam
-        M1[Meropenem binds PBP]
-        M2[Xeruborbactam inhibits Class A,B,C,D]
-    end
+```{=html}
+<style>
+.jama-moa {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.62em;
+  color: #1a1a1a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 24px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.jama-moa .combo-card {
+  border: 2px solid #1a1a1a;
+  background: #fff;
+}
+.jama-moa .combo-header {
+  background: #2c2c2c;
+  color: #fff;
+  font-weight: 700;
+  padding: 6px 12px;
+  font-size: 1.05em;
+  letter-spacing: 0.02em;
+}
+.jama-moa .combo-body {
+  display: flex;
+  gap: 0;
+}
+.jama-moa .moa-col {
+  flex: 1;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.jama-moa .moa-col + .moa-col {
+  border-left: 1.5px solid #ccc;
+}
+.jama-moa .moa-role {
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #b20e10;
+}
+.jama-moa .moa-drug {
+  font-weight: 700;
+  font-size: 1.05em;
+}
+.jama-moa .moa-desc {
+  font-size: 0.92em;
+  text-align: center;
+  color: #444;
+  line-height: 1.3;
+}
+</style>
+
+<div class="jama-moa">
+
+  <div class="combo-card">
+    <div class="combo-header">Sulbactam-Durlobactam</div>
+    <div class="combo-body">
+      <div class="moa-col">
+        <div class="moa-role">β-Lactam</div>
+        <div class="moa-drug">Sulbactam</div>
+        <div class="moa-desc">Binds PBP1 &amp; PBP3</div>
+      </div>
+      <div class="moa-col">
+        <div class="moa-role">BLI</div>
+        <div class="moa-drug">Durlobactam</div>
+        <div class="moa-desc">Inhibits OXA enzymes</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="combo-card">
+    <div class="combo-header">Aztreonam-Avibactam</div>
+    <div class="combo-body">
+      <div class="moa-col">
+        <div class="moa-role">β-Lactam</div>
+        <div class="moa-drug">Aztreonam</div>
+        <div class="moa-desc">Intrinsically stable to MBLs</div>
+      </div>
+      <div class="moa-col">
+        <div class="moa-role">BLI</div>
+        <div class="moa-drug">Avibactam</div>
+        <div class="moa-desc">Inhibits serine β-lactamases</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="combo-card">
+    <div class="combo-header">Cefepime-Taniborbactam</div>
+    <div class="combo-body">
+      <div class="moa-col">
+        <div class="moa-role">β-Lactam</div>
+        <div class="moa-drug">Cefepime</div>
+        <div class="moa-desc">Binds PBPs</div>
+      </div>
+      <div class="moa-col">
+        <div class="moa-role">BLI</div>
+        <div class="moa-drug">Taniborbactam</div>
+        <div class="moa-desc">Inhibits Class A, B, C, D</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="combo-card">
+    <div class="combo-header">Meropenem-Xeruborbactam</div>
+    <div class="combo-body">
+      <div class="moa-col">
+        <div class="moa-role">β-Lactam</div>
+        <div class="moa-drug">Meropenem</div>
+        <div class="moa-desc">Binds PBPs</div>
+      </div>
+      <div class="moa-col">
+        <div class="moa-role">BLI</div>
+        <div class="moa-drug">Xeruborbactam</div>
+        <div class="moa-desc">Inhibits Class A, B, C, D</div>
+      </div>
+    </div>
+  </div>
+
+</div>
 ```
