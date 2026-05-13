@@ -142,7 +142,7 @@ The WHO updated this list in 2024 [@Sati2025], covering 24 pathogens across 15 f
 <br>
 
 | Pathogen | Resistance pattern |
-|:--------------------------------------|:--------------------------------|
+|:---|:---|
 | *Acinetobacter baumannii* | Carbapenem-resistant (CRAB) |
 | Enterobacterales (*K. pneumoniae*, *E. coli*, others) | Carbapenem-resistant (CRE) |
 | Enterobacterales (*K. pneumoniae*, *E. coli*, others) | 3rd-generation cephalosporin-resistant (ESBL) |
@@ -204,7 +204,7 @@ Community-acquired pathogens such as Salmonella typhi and Shigella were elevated
 <br>
 
 | Class | Type | Examples | Inhibited by |
-|:----------------|:----------------|:----------------|:-------------------|
+|:---|:---|:---|:---|
 | **A** | Serine | KPC, CTX-M, TEM, SHV | Avibactam, Vaborbactam, Xeruborbactam |
 | **B** | Metallo (MBL) | NDM, VIM, IMP | Aztreonam stability only; Xeruborbactam, Taniborbactam |
 | **C** | Serine (AmpC) | AmpC | Avibactam, Xeruborbactam |
@@ -1320,7 +1320,7 @@ Let me briefly mention some other agents in development. Each fills a specific n
 <br>
 
 | Agent | Target | Key Indications | Status |
-|:-----------------|:-------------------|:-----------------|:-----------------|
+|:---|:---|:---|:---|
 | **SUL-DUR** | CRAB | HABP/VABP | FDA approved |
 | **ATM-AVI** | MBL-Enterobacterales | cIAI, HABP/VABP | Late development |
 | **FEP-ENM** | ESBL | cUTI/AP | FDA approved |

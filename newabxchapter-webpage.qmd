@@ -14,13 +14,15 @@ format:
     number-sections: true
     theme: cosmo
     code-fold: true
-bibliography: references.bib
+bibliography: new-abx-references.bib
 csl: vancouver.csl
 ---
 
 ## Introduction {#sec-introduction}
 
 Antimicrobial resistance (AMR) is a critical public health challenge, causing substantial morbidity and mortality globally [@Murray2022]. The discovery of penicillin in 1928, marking the dawn of the antibiotic era, is widely recognized as one of the most significant advancements in modern medicine. Yet the continued use of antibiotics was threatened from the beginning, because by 1942 penicillin resistance among *Staphylococcus aureus* was reported [@Lobanovska2017]. Since then, AMR has been detected shortly after introducing each new antimicrobial agent in all regions of the world.
+
+![Antibiotic development vs. resistance timeline](images-new-abx/antibiotic_timeline_white.svg){#fig-timeline fig-align="center" width="90%"}
 
 ::: {.callout-warning}
 ## The AMR Crisis
