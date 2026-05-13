@@ -22,7 +22,7 @@ bibliography: new-abx-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Antibiotics for MDR Pathogens in Advanced Stages <br> of Clinical Development {background-video="images-new-abx/molecules.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.3"}
+## Antibiotics for MDR Pathogens in Advanced Stages <br> of Clinical Development {background-image="images-new-abx/molecules_opt.gif" background-size="cover" background-color="#b20e10" background-opacity="0.3"}
 
 <br>
 
